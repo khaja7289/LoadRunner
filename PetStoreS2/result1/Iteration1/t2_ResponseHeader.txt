@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Wed, 01 Oct 2025 15:53:29 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 5352
+Connection: keep-alive
+Set-Cookie: JSESSIONID=DD66AB616D0C05E2C639863D0EEAC5B0; Path=/; HttpOnly
+Content-Language: en-US
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: HTTP/1.1 m_proxy_prod_aws_ap-south-2_1_0n
+Via: HTTP/1.1 s_proxy_prod_aws_ap-south-2_1_0n
+

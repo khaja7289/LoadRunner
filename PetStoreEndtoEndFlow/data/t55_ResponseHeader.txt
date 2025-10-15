@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Last-Modified: Tue, 16 Sep 2025 06:10:33 GMT
+ETag: "c71d0b0029a8c7c40e3885370c23e2fb"
+x-amz-server-side-encryption: AES256
+Cache-Control: max-age=900, must-revalidate
+Accept-Ranges: bytes
+Content-Type: application/json
+Vary: Accept-Encoding
+Content-Encoding: br
+Content-Length: 260
+Date: Tue, 07 Oct 2025 07:03:23 GMT
+Connection: keep-alive
+X-Robots-Tag: noindex, nofollow
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS
+Access-Control-Allow-Origin: *
+Akamai-GRN: 0.4f72c117.1759820603.4e5a158c
+Server-Timing: ak_p; desc="1759820603085_398553679_1314526604_16_1420_0_0_-";dur=1
+

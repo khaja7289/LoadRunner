@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 01 Oct 2025 15:56:32 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 3760
+Connection: keep-alive
+Content-Language: en-US
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: HTTP/1.1 m_proxy_prod_aws_ap-south-2_1_0n
+Via: HTTP/1.1 s_proxy_prod_aws_ap-south-2_1_0n
+

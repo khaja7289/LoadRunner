@@ -1,0 +1,9 @@
+GET /actions/Order.action?newOrderForm= HTTP/1.1
+Referer: https://petstore.octoperf.com/actions/Cart.action?viewCart=
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: petstore.octoperf.com
+Cookie: JSESSIONID=24AE418B946946843E6364E261DC87CC
+

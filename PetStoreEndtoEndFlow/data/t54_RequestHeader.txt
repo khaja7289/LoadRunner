@@ -1,0 +1,12 @@
+GET /dc-hosted-extension/ote-config.json HTTP/1.1
+Host: acrobat.adobe.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: kndctr_9E1005A551ED61CA0A490D45_AdobeOrg_identity=CiYwMjA2NjU5MDU0Mzk1MTQ3ODI5MTIwOTI5MjE5NjY0Njg1MzEyMFITCPSR2sGbMxABGAEqBElORDEwAPAB9JHawZsz
+

@@ -1,0 +1,389 @@
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VuGen.exe
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntdll.dll
+		10.0.26100.3624 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MSCOREE.DLL
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\KERNEL32.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\KERNELBASE.dll
+		7.8.820.1                     C:\WINDOWS\System32\QIPCAP.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\USER32.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\win32u.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\GDI32.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\gdi32full.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\msvcp_win.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\ucrtbase.dll
+		10.0.26100.4768 (WinBuild.160101.0800)C:\WINDOWS\System32\SHELL32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\wintypes.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\combase.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\RPCRT4.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\OLEAUT32.dll
+		10.0.26100.3624 (WinBuild.160101.0800)C:\WINDOWS\System32\ADVAPI32.dll
+		7.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\msvcrt.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\sechost.dll
+		10.0.26100.1591 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DNSAPI.dll
+		10.0.26100.4484 (WinBuild.160101.0800)C:\WINDOWS\System32\IMM32.DLL
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\NSI.dll
+		4.8.9065.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\SHLWAPI.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\VERSION.dll
+		4.8.9310.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll
+		14.32.31326.0                 C:\WINDOWS\SYSTEM32\ucrtbase_clr0400.dll
+		14.32.31326.0                 C:\WINDOWS\SYSTEM32\VCRUNTIME140_CLR0400.dll
+		4.8.9310.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\mscorlib\e7bb045f47aa3c87bad916857a0c68c3\mscorlib.ni.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\ole32.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\bcryptPrimitives.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\uxtheme.dll
+		4.8.9310.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll
+		4.8.9310.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System\940a25053c072ba3ff769a15b4aa99d1\System.ni.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Drawing\a4797cd5939c208977156e8e9e56eb63\System.Drawing.ni.dll
+		4.8.9256.0 built by: NET481REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\fa1d9e90621a14a4761a681f796714eb\System.Windows.Forms.ni.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\rsaenh.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\bcrypt.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Core\a3ef52e714e10aa5cec4a2752163b89d\System.Core.ni.dll
+		10.0.26100.1457 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\windows.storage.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\SHCORE.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\WindowsBase\cd9bf0efcdd5d0eb97a6a622b76a6d93\WindowsBase.ni.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\PresentationCore\cf202117ec0f6756aae7d4cd48d70b3a\PresentationCore.ni.dll
+		4.8.9316.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatio5ae0f00f#\220dfc29bce8debae5ae3d8a960a774d\PresentationFramework.ni.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xaml\460f4b317f06fb50604392a881a797f7\System.Xaml.ni.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dwrite.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\wpfgfx_v0400.dll
+		14.32.31326.0                 C:\WINDOWS\SYSTEM32\MSVCP140_CLR0400.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationNative_v0400.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml\45043474f43783621afb7b7a95b3aeff\System.Xml.ni.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Configuration\6c81f3d22196cd608edab1cd2459229e\System.Configuration.ni.dll
+		10.0.26100.4768 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\profapi.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\MSCTF.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DWMAPI.dll
+		2001.12.10941.16384 (WinBuild.160101.0800)C:\WINDOWS\System32\clbcatq.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d9.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dxcore.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\RegistryUtil.dll
+		14.42.34433.0                 C:\WINDOWS\SYSTEM32\mfc140.dll
+		14.42.34438.0                 C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll
+		5.82 (WinBuild.160101.0800)   C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.5074_none_cf989b7a8eac3574\Comctl32.dll
+		31.0.101.1999                 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a967bee0d1b46433\igdumdim32.dll
+		31.0.101.1999                 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a967bee0d1b46433\igd9dxva32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\SETUPAPI.dll
+		10.0.26100.4202 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+		31.0.101.1999                 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a967bee0d1b46433\igdgmm32.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Presentatioaec034ca#\ec29efa554dddd942bcf4b81c80cec40\PresentationFramework.Aero2.ni.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\wtsapi32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\CRYPT32.dll
+		10.0.26100.6584 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\SspiCli.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINSTA.dll
+		10.0.26100.4202 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\powrprof.dll
+		10.0.26100.1301 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\UMPDC.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Numerics\84ea6ff644d54d3f7d2100bf817554f9\System.Numerics.ni.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\system32\dataexchange.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\twinapi.appcore.dll
+		4.8.9241.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\94a9a4652d6f23e61db3c10f60b675cb\System.Runtime.Serialization.ni.dll
+		                              C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a967bee0d1b46433\igdinfo32.dll
+		31.0.101.1999                 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_a967bee0d1b46433\igc32.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\a0c266f8898201ca99a613c27faf4966\System.Xml.Linq.ni.dll
+		4.8.9214.0 built by: NET481REL1LAST_BC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Data\cca8ea4cb09eb41bc1520471dc7eb469\System.Data.ni.dll
+		4.8.9214.0 built by: NET481REL1LAST_BC:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\WS2_32.dll
+		10.0.26100.4343 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\TextShaping.dll
+		10.0.26100.6584 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\textinputframework.dll
+		10.0.26100.4202 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+		10.0.26100.5074               C:\WINDOWS\SYSTEM32\CoreUIComponents.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\msctfui.dll
+		7.2.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\UIAutomationCore.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\D3DCOMPILER_47.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\MLANG.DLL
+		11.00.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\urlmon.dll
+		11.00.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\iertutil.dll
+		10.0.26100.1882 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\netutils.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\srvcli.dll
+		7.0.26100.4768 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\PROPSYS.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\virtdisk.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.5074_none_b6a59935523e7913\gdiplus.dll
+		10.0.26100.6584 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecs.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Security\550067fd28564656df2ff0a4d2f5f747\System.Security.ni.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\IconCodecService.dll
+		6.10 (WinBuild.160101.0800)   C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.5074_none_85baa64ff7abff45\comctl32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\mscms.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WindowsCodecsExt.dll
+		1.0.2210.55                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebView2Loader.dll
+		120.0.2210.91                 C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebView2Runtime\EBWebView\x86\EmbeddedBrowserWebView.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Web\9e6d591e56b53ced0265bc2230fdf9a5\System.Web.ni.dll
+		4.8.9316.0 built by: NET481REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\webengine4.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\PSAPI.DLL
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USERENV.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\mswsock.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\sxs.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\snapshotloaderwrap.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mosifs32.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\wrapicu.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\thrdutil.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\icuuc69.dll
+		14.42.34438.0                 C:\WINDOWS\SYSTEM32\MSVCP140.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\icudt69.dll
+		14.2.3792.0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ViewerGen.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\atlthunk.dll
+		11.00.26100.5074 (WinBuild.160101.0800)C:\Windows\System32\ieframe.dll
+		11.00.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\msIso.dll
+		11.00.26100.1 (WinBuild.160101.0800)C:\Windows\System32\mshtml.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\Windows\System32\WINHTTP.dll
+		10.0.26100.1882 (WinBuild.160101.0800)C:\Windows\System32\wkscli.dll
+		11.00.26100.1 (WinBuild.160101.0800)C:\Windows\System32\WININET.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\srpapi.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WLDP.DLL
+		11.00.26100.5074              C:\Windows\System32\ieapfltr.dll
+		14.2.3792.0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ielpview.dll
+		14.2.3792.0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\AsmHook.dll
+		14.2.3792.0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VirFileSystemMng.dll
+		14.2.3792.0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VirPrivateProfiles.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MsftEdit.DLL
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Accessibility\b0525d5c880280358e7771fbe02618e6\Accessibility.ni.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\system32\msimtf.dll
+		3.10.349.0                    C:\Windows\System32\msls31.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\d2d1.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\Windows\System32\dxgi.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\Windows\System32\d3d11.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\d3d10warp.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\Secur32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\appresolver.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\LINKINFO.dll
+		10.0.26100.3624 (WinBuild.160101.0800)C:\Windows\System32\Bcp47Langs.dll
+		10.0.26100.3037 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntshrui.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\cscapi.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\policymanager.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ntmarta.dll
+		14.8.9294.0 built by: NET481REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll
+		10.0.26100.6584 (WinBuild.160101.0800)C:\Windows\System32\rasadhlp.dll
+		10.0.26100.3915 (WinBuild.160101.0800)C:\WINDOWS\System32\fwpuclnt.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINMM.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dcomp.dll
+		                              C:\WINDOWS\SYSTEM32\Microsoft.Internal.WarpPal.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rasapi32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\rtutils.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\RASMAN.DLL
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WINNSI.DLL
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\schannel.dll
+		10.0.26100.1591 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\ncrypt.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\NTASN1.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\system32\ncryptsslp.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MSASN1.dll
+		10.0.26100.2033 (WinBuild.160101.0800)C:\WINDOWS\system32\explorerframe.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.Globalization.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\globinputhost.dll
+		7.2.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\OLEACC.dll
+		4.8.9032.0 built by: NET481REL1C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.B3325a29b#\cf28006c1baae9010c057e457c4bb61b\Microsoft.Build.Framework.ni.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\coparamui.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\PathResolver.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramui.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\MPR.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\parameng.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\is32.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\dtable32.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lr_vug32.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mlib_ds.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\msg_handler.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libxdrutil.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\run_time_context.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\config.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\inifile.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\runlogic.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\MultiVuser.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\xdr.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\rtc_protocol.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\vusercfg.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\comm_util.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ArchiveManager.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramlr.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramtbl.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mmdtable.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libmemmap.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mmdbigtable.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramcst.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramunq.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramfnc.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramss.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramdte.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramvar.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\paramrnd.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\runlogicview.ocx
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ParamUINotification.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\HP.LR.VuGen.ScriptHandlerComWrapper.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lrscripthandler.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\webscripthandler.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebStepClsShared.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebStepClsDesign.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\DynWininet.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\wraplwcrypto.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mshtmtr.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrXmlScriptHandler.DLL
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ReplayBinaryUtils32.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\WSOCK32.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\websteps_scripthandler.DLL
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\base_scripthandler.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\RICHED32.DLL
+		5.31.23.1231                  C:\WINDOWS\SYSTEM32\RICHED20.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\USP10.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebUIRes.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\webservice_scripthandler.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ServiceManagementLight.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WSDLSDK.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WsJniUtil.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebServicesSDK.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\SoapRecordFilter.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\XmlParserInterface.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WSDLUtilsU.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WsCommonLogger.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WSDLParser.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mic_regex.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\java_search.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ConfigurationUtil.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\MicXMLDiffTool.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\HttpUtils.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\xerces-c_3_2.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WSDLToolkits.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\Xalan-C_1_12.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\XalanMessages_1_12.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\icuin69.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\soap_scripthandler.DLL
+		4.8.9032.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Microsoft.CSharp\04e5bb349682f9a75390258b2c1e1afc\Microsoft.CSharp.ni.dll
+		4.8.9032.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Dynamic\138b39215a01056f981405404493a686\System.Dynamic.ni.dll
+		1.7.1                         C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lib\win32\x86\git2-a2bde63.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebObjects4Vugen.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ExtInfra.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwScriptApi.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lrun50.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\trans.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\faserver.dll
+		2023.1.0.103                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\vm.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwCs.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwLogicMgr.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwiWebInfra.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwSrvNet.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwObjMgr.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwUtil.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\merc_uuid.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\wrapzlib.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lr_exp.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\pcre-8.44.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\trans_server.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libdatatypes.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\ipng_utils.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\data_types_ifs.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VnpUtils.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwSnapshotsWriter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\DataFormatsEngine.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwJsForTransport.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwJsw.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\http_auth.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\DomFactory.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\duktape.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrXml.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrJson.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\brotlienc.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\brotlidec.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwiHtmlParser.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwReport.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwiStreamingParser.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\boost_filesystem-vc143-mt-x32-1_81.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwWebSocketEngine.dll
+		1.2.13                        C:\Program Files (x86)\OpenText\Virtual User Generator\bin\zlib.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\OpenText\Virtual User Generator\bin\dbghelp.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\JScriptEngine.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\timediff_ext.dll
+		3.0.11                        C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libcrypto-3.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\dc_requests.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\jsext.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\jrequestor_srv.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebSnapshotsCommon.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\JSHostedEnvironment.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VnpReport.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\JsonParser.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\boost_filesystem-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\boost_system-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\brotlicommon.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\driver.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\boost_thread-vc143-mt-x32-1_81.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\OpenText\Virtual User Generator\bin\dbgcore.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwReplayMain.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mozjs.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\cyclic_ds.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\two_way_comm.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libresponse.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mchan.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mlogger.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\jconv_str.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\launcher.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\InternetProtocolHttpEngine.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwSAPLogicMgr.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwSAPScriptApi.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LrwiAed.dll
+		4.16                          C:\Program Files (x86)\OpenText\Virtual User Generator\bin\nspr4.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libpvc.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\security_protocols.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libgd.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\security_encryption.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\key_storage.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\key_handler.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\mictime.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\librdkafkacpp.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\cert.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\hook_installer.dll
+		3.0.11                        C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libssl-3.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\leader_election.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\libtpq.dll
+		10.0.26100.4202 (WinBuild.160101.0800)C:\WINDOWS\System32\imagehlp.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\key_repository.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\librdkafka.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lwc_cryptolib.dll
+		4.50.000                      C:\Program Files (x86)\OpenText\Virtual User Generator\bin\bugslayerutil.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.ApplicationModel.dll
+		10.0.10011.16384              C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\Windows.UI\7923e6eae8c746f274424c80c1d012fb\Windows.UI.ni.dll
+		4.8.9032.0                    C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runtbff93e24#\5ca44cfc71d7f6762c0691b813b44ec0\System.Runtime.InteropServices.WindowsRuntime.ni.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\twinapi.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\HP.LR.VuGen.LrVugHelper.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\TextContainer.dll
+		10.0.26100.5074 (WinBuild.160101.0800)C:\WINDOWS\System32\coml2.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\edputil.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\vugen_record_api.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\insp_gen.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\inspdll.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\pefile.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\api_inspector.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\System32\COMDLG32.dll
+		2024.1.0.235                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\trpfnc32.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\script_language_helper.dll
+		2024.1.0.96                   C:\Program Files (x86)\OpenText\Virtual User Generator\bin\HTTPSnapshotsWrapper.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\Api_Filter_Helper.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\api_scrinfo.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\unknown_only_helper.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\type_info_pool.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\CodeGenerationAPI.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\InternalSDKUtils.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LRSDKUtilities.dll
+		                              C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebEventTrafficMap.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VuGenCallback.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\Windows\System32\cryptui.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lrc_basic_filters.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\api_event_parser.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\traffic_filter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\api_sock_filter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebDataFormatsCodeGen.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebSocketFilter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\VnpLog.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebHTMLCodeGen.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebRecorder.dll
+		2.9.0                         C:\Program Files (x86)\OpenText\Virtual User Generator\bin\cpprest140_2_9.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\HTTPAPI.dll
+		14.42.34438.0                 C:\WINDOWS\SYSTEM32\CONCRT140.dll
+		10.0.26100.1 (WinBuild.160101.0800)C:\WINDOWS\SYSTEM32\DPAPI.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebCorrelation.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebConvertFromFormattedFilter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebConvertFromFormattedPostFilter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebExtractServerNameFilter.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lrc_com_filters.dll
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\WebRemoveLongBodyFilter.DLL
+		2024.1.0.667                  C:\Program Files (x86)\OpenText\Virtual User Generator\bin\lrc_code_gen_filter.dll

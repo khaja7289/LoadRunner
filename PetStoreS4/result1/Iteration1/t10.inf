@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/html
+StepName=Link: {RanditemId}
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1759335058186
+RawStepName={RanditemId}
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1759335057397
+URL1=https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-18

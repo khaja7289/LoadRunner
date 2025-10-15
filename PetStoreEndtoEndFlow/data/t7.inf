@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7_current.json
+URL1=http://clients2.google.com/time/1/current?cup2key=7:jUVaxFG9dRd9dk68b1WgBkw_PkJPsqlILA3M-nryXM8&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

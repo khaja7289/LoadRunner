@@ -1,0 +1,11 @@
+[t55]
+FileName1=t55_ote-config.json
+URL1=https://acrobat.adobe.com/dc-hosted-extension/ote-config.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_55.xml
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t55_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

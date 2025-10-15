@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Link: Register Now!",
+                "infFile": "t4.inf",
+                "time": 1760428383503
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: Account.action",
+                "infFile": "t5.inf",
+                "time": 1760428388174
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Account.action_2",
+                "infFile": "t6.inf",
+                "time": 1760428393882
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: Sign In",
+                "infFile": "t7.inf",
+                "time": 1760428394367
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Form: Account.action",
+                "infFile": "t9.inf",
+                "time": 1760428398910
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "ClickOnRegistration",
+                "rawStartTime": 1760428382987,
+                "rawEndTime": 1760428383504,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004294872283935547
+            },
+            {
+                "transactionName": "SubmitRegistration",
+                "rawStartTime": 1760428387308,
+                "rawEndTime": 1760428388174,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007779598236083984
+            },
+            {
+                "transactionName": "SignOut",
+                "rawStartTime": 1760428393045,
+                "rawEndTime": 1760428393882,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005650758743286133
+            },
+            {
+                "transactionName": "ClickOnSignIn",
+                "rawStartTime": 1760428393952,
+                "rawEndTime": 1760428394369,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0070760250091552738
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1760428397930,
+                "rawEndTime": 1760428398922,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010438680648803711
+            }
+        ]
+    }
+]

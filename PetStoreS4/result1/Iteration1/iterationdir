@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Imported_AddToCard]
+SnapshotIndex=I1_Imported_AddToCard
+[Imported_RemoveTheProduct]
+SnapshotIndex=I1_Imported_RemoveTheProduct
+[vuser_end]
+SnapshotIndex=I1_vuser_end

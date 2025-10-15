@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Date: Tue, 07 Oct 2025 06:59:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport;
+Content-Security-Policy: script-src 'report-sample' 'nonce-NxzoDi-na4z29Ye5pwsUtw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+Content-Security-Policy: script-src 'unsafe-inline' 'unsafe-eval' blob: data:;report-uri /_/IdentityListAccountsHttp/cspreport/fine-allowlist
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Opener-Policy: same-origin
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+reporting-endpoints: default="/_/IdentityListAccountsHttp/web-reports?context=eJzjEtHikmLw05BiOHxtB5Meyy0mIyAW4uG48WXScTaBF5evzGBW0k3KL4zPTEnNK8ksqczJLC5JTE7OL80rKS5OLSpLLYo3MjAyNbA0stAzsIgvMAQAi84cmQ"
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Alt-Svc: clear
+Via: HTTP/1.1 m_proxy_prod_aws_ap-south-2_1_0n
+Via: HTTP/1.1 s_proxy_prod_aws_ap-south-2_1_0n
+

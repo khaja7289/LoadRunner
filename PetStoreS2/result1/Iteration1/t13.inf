@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Submit Form: Cart.action_2
+Total=1
+FileName1=t13.html
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1759334015370
+RawStepName=Cart.action_2
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1759334014812
+URL1=https://petstore.octoperf.com/actions/Cart.action

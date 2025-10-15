@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=PetStoreS1.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=24
+MinorVersion=1
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=24.1.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Imported_AddToCard=Imported_AddToCard.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Imported_AddToCard=0
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+Imported_AddToCard=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Imported_AddToCard=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Imported_AddToCard=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="LaunchPetStore__*delimiter*__EnterToPetStore__*delimiter*__ClickOnSignIn__*delimiter*__Login__*delimiter*__AddAproduct__*delimiter*__SelectProductId__*delimiter*__SelectItemId__*delimiter*__AddToCard__*delimiter*__SignOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ImportedAction]
+Imported_AddToCard=
+[Transactions]
+LaunchPetStore=
+EnterToPetStore=
+ClickOnSignIn=
+Login=
+AddAproduct=
+SelectProductId=
+SelectItemId=
+AddToCard=
+SignOut=

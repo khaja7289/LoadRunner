@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Link: Remove
+Total=1
+FileName1=t13.html
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1759335067889
+RawStepName=Remove
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1759335067573
+URL1=https://petstore.octoperf.com/actions/Cart.action?removeItemFromCart=&workingItemId=EST-18

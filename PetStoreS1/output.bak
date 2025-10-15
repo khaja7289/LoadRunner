@@ -1,0 +1,30 @@
+Virtual User Script started at: 14-10-2025 13:31:29
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\10738962\Documents\VuGen\Scripts\PetStoreS1\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): Script Started
+vuser_init.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+vuser_init.c(6): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+vuser_init.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Imported_Registration.c(15): Notify: Transaction "ClickOnRegistration" started.
+Imported_Registration.c(17): web_reg_find started  	[MsgId: MMSG-26355]
+Imported_Registration.c(17): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Imported_Registration.c(20): web_link("Register Now!") started  	[MsgId: MMSG-26355]
+Imported_Registration.c(20): Error -27985: There is no context for HTML-based functions. A previous function may not have used "Mode=HTML" or downloaded only non-HTML page(s), or the context has been reset (e.g., due to a GUI-based function)  	[MsgId: MERR-27985]
+Imported_Registration.c(20): Warning -26379: Pending web_reg_save_param/web_reg_find/web_create_html_param/web_create_html_param_ex request(s) are deleted and will be handled as "not found"  	[MsgId: MWAR-26379]
+Imported_Registration.c(20): Error -26366: "Text=User Information" not found for web_reg_find  	[MsgId: MERR-26366]
+Imported_Registration.c(20): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+Imported_Registration.c(20): web_link("Register Now!") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Imported_Registration.c(20): Notify: Transaction "ClickOnRegistration" ended with a "Fail" status (Duration: 0.2280).
+Imported_Registration.c(20): Notify: Transaction "ClickOnRegistration" has 3 error message(s).
+Imported_Registration.c(20): Notify: The 1st error message associated with transaction "ClickOnRegistration" is "Error -27985: There is no context for HTML-based functions. A previous function may not have used "Mode=HTML" or downloaded only non-HTML page(s), or the context has been reset (e.g., due to a GUI-based function)"
+Imported_Registration.c(20): Notify: The 2nd error message associated with transaction "ClickOnRegistration" is "Error -26366: "Text=User Information" not found for web_reg_find"
+Imported_Registration.c(20): Notify: The 3rd error message associated with transaction "ClickOnRegistration" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Abort was called from an action.

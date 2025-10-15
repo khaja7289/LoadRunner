@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Image: cart.gif
+Total=1
+FileName1=t12.html
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1759335064234
+RawStepName=cart.gif
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1759335063818
+URL1=https://petstore.octoperf.com/actions/Cart.action?viewCart=

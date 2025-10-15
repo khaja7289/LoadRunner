@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Tue, 07 Oct 2025 07:02:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Content-Type-Options: nosniff
+x-cup-server-proof: 3046022100ed429b77f34b955bd2eb05158f586451456a7beeba366f51f10214c1fee21956022100b70a5af837a30b22bd2d69c4494c6bdbaa34cedba5c11fac4efc20debea98ddf:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ETag: W/"3046022100ed429b77f34b955bd2eb05158f586451456a7beeba366f51f10214c1fee21956022100b70a5af837a30b22bd2d69c4494c6bdbaa34cedba5c11fac4efc20debea98ddf:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Content-Disposition: attachment; filename="json.txt"; filename*=UTF-8''json.txt
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Via: HTTP/1.1 m_proxy_prod_aws_ap-south-2_1_0n
+Via: HTTP/1.1 s_proxy_prod_aws_ap-south-2_1_0n
+

@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Url: Account.action_2
+Total=1
+FileName1=t14.html
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1759335068627
+RawStepName=Account.action_2
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1759335067948
+URL1=https://petstore.octoperf.com/actions/Catalog.action

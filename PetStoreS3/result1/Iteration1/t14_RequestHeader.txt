@@ -1,0 +1,12 @@
+POST /actions/Order.action HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Referer: https://petstore.octoperf.com/actions/Order.action?newOrderForm=
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: petstore.octoperf.com
+Cookie: JSESSIONID=24AE418B946946843E6364E261DC87CC
+Content-Length: 561
+

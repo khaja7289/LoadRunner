@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1760428371809
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t2.inf",
+                "time": 1760428378271
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Link: Sign In",
+                "infFile": "t3.inf",
+                "time": 1760428382775
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "LaunchPetStore",
+                "rawStartTime": 1760428369534,
+                "rawEndTime": 1760428371809,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08619070053100586
+            },
+            {
+                "transactionName": "EnterToPetStore",
+                "rawStartTime": 1760428375888,
+                "rawEndTime": 1760428378271,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016701459884643556
+            },
+            {
+                "transactionName": "ClickOnSignIn",
+                "rawStartTime": 1760428382364,
+                "rawEndTime": 1760428382776,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01818704605102539
+            }
+        ]
+    }
+]

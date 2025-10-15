@@ -1,0 +1,100 @@
+[
+    {
+        "actionName": "Imported_AddToCard",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Catalog.action_2",
+                "infFile": "t7.inf",
+                "time": 1759334012416
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Link: {RandproductId}",
+                "infFile": "t9.inf",
+                "time": 1759334012926
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: {RanditemId}",
+                "infFile": "t10.inf",
+                "time": 1759334013787
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t11.inf",
+                "time": 1759334014264
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AddAproduct",
+                "rawStartTime": 1759334011919,
+                "rawEndTime": 1759334012428,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010043859481811524
+            },
+            {
+                "transactionName": "SelectProductId",
+                "rawStartTime": 1759334012461,
+                "rawEndTime": 1759334012936,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008447885513305664
+            },
+            {
+                "transactionName": "SelectItemId",
+                "rawStartTime": 1759334012967,
+                "rawEndTime": 1759334013795,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009956836700439453
+            },
+            {
+                "transactionName": "AddToCard",
+                "rawStartTime": 1759334013827,
+                "rawEndTime": 1759334014273,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010158061981201172
+            }
+        ]
+    },
+    {
+        "actionName": "Imported_UpdateCart",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Cart.action",
+                "infFile": "t12.inf",
+                "time": 1759334014705
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Form: Cart.action_2",
+                "infFile": "t13.inf",
+                "time": 1759334015401
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Form: Cart.action_3",
+                "infFile": "t14.inf",
+                "time": 1759334015993
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "ClickOnViewcart",
+                "rawStartTime": 1759334014306,
+                "rawEndTime": 1759334014716,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004463672637939453
+            },
+            {
+                "transactionName": "UpdateCart",
+                "rawStartTime": 1759334014748,
+                "rawEndTime": 1759334016003,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011229991912841797
+            }
+        ]
+    }
+]

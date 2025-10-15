@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\10738962\Documents\VuGen\Scripts\PetStoreS4
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\users\10738962\documents\vugen\scripts\petstores4\\logfile.log
+c:\users\10738962\documents\vugen\scripts\petstores4\\combined_PetStoreS4.c
+c:\users\10738962\documents\vugen\scripts\petstores4\\pre_cci.c

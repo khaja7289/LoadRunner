@@ -1,0 +1,324 @@
+[API Trapper      (29ec:4c84)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[API Trapper      (5bf8: 59c)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[API Trapper      (50d8:2954)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[API Trapper      (3818:5060)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[Network Analyzer (3818:4950)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3818:4950)] Load Network Traffic Analyzers:
+[Network Analyzer (3818:4950)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3818:4950)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3818:4950)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3818:4950)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3818:4950)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3818:4950)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3818:4950)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3818:4950)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3818:5878)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[API Trapper      (1b48:51c0)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.66.14:80   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Web Request      (3818:5878)] "GET /time/1/current?cup2key=7:Dy_LWrgkaGtxj2s17LLFbXLDICNPE_uy4PGHl9adDF0&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"   
+[Network Analyzer (3818:5878)]   (Sid:  1) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.4.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.217:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid:  1) Server -> Client : 1273 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid:  4) Client -> Server @ : 46 bytes 
+[Network Analyzer (3818:5878)]   (Sid:  4) Server -> Client : 1101 bytes 
+[Net An. Error    (3818:5288)] SSL_connect(ssl_id = 3071577769760 = 000002CB284D4720) Failed, ctx = 000002CB28470750, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:5288)]   (Sid:  3) SSL handshake with remote server Failed!
+[Network Analyzer (3818:5878)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3818:5298)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 78.46.109.21:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3818:5298)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Web Request      (3818:5878)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (3818:5878)]   (Sid:  2) Client -> Server @ : 498 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3818:31e8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      (3fec:425c)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Network Analyzer (3818:31e8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    (3818:5260)] SSL_connect(ssl_id = 3071578254400 = 000002CB2854AC40) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:5260)]   (Sid:  6) SSL handshake with remote server Failed!
+[Network Analyzer (3818:5878)]   (Sid:  2) Server -> Client : 2056 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid:  2) Server -> Client : 49 bytes (SSL) (Service=HTTP)
+[Web Request      (3818:5878)] "GET /"   
+[Network Analyzer (3818:5878)]   (Sid:  5) Client -> Server @ : 645 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 66.117.22.113:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3818:1c30)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818:1c30)] SSLAccept(ssl_id = 3071578537968 = 000002CB2858FFF0) Failed, ctx = 000002CB2857DD60, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3818:1c30)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.251.43.35:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:48e0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818:48e0)] SSLAccept(ssl_id = 3071578041744 = 000002CB28516D90) Failed, ctx = 000002CB284CA6C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (3818:48e0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (3818:2080)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818:2080)] SSLAccept(ssl_id = 3071581823120 = 000002CB288B2090) Failed, ctx = 000002CB288CB6F0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (3818:2080)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (3818:5878)]   (Sid:  5) Server -> Client : 372 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid:  5) Server -> Client : 1156 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid:  7) Connection Terminated (by Client)
+[API Trapper      (2258:4a94)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[Network Analyzer (3818:49c4)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:5878)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (3818:5878)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[API Trapper      (2ca0:1540)] Recording in 64-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\chrome\chrome.exe
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid=  3)  PROXIED!
+[Net An. Error    (3818:49c4)] SSLAccept(ssl_id = 3071578351904 = 000002CB28562920) Failed, ctx = 000002CB284CA6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000126:SSL routines::unexpected eof while reading
+" 
+[Net An. Error    (3818:49c4)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:5878)]   (Sid: 13) Client -> Server @ : 55 bytes 
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.251.43.35:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:5878)]   (Sid: 13) Server -> Client : 1110 bytes 
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.66.14:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 17)  PROXIED!
+[Net An. Error    (3818:4414)] SSL_connect(ssl_id = 3071578334992 = 000002CB2855E710) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:4414)]   (Sid:  3) SSL handshake with remote server Failed!
+[Network Analyzer (3818:5878)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (3818:5878)]   (Sid: 17) Client -> Server @ : 38 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 17) Server -> Client : 1093 bytes 
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Net An. Error    (3818:4610)] SSL_connect(ssl_id = 3071578167552 = 000002CB28535900) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:4610)]   (Sid: 11) SSL handshake with remote server Failed!
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.205.131:80   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (3818:5878)] "GET /time/1/current?cup2key=7:lnBRJPIpBOK1zjABA-P0S6S4va19dZq8Q_UqeFKMea4&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"   
+[Network Analyzer (3818:5878)]   (Sid: 15) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.251.43.35:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Net An. Error    (3818:4038)] SSL_connect(ssl_id = 3071578351904 = 000002CB28562920) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:4038)]   (Sid: 12) SSL handshake with remote server Failed!
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 66.117.22.190:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 15) Server -> Client : 1157 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 15) Server -> Client : 116 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 17) Connection Terminated (by Client)
+[Web Request      (3818:5878)] "GET /generate_204"   
+[Network Analyzer (3818:5878)]   (Sid: 18) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 78.46.109.21:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (3818:2898)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:2898)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3818:5878)]   (Sid: 18) Server -> Client : 247 bytes  (Service=HTTP)
+[Net An. Error    (3818:56a0)] SSL_connect(ssl_id = 3071581895744 = 000002CB288C3C40) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Network Analyzer (3818:5878)]   (Sid: 14) Client -> Server @ : 682 bytes (SSL)(Service=HTTP)
+[Net An. Error    (3818:56a0)]   (Sid: 16) SSL handshake with remote server Failed!
+[Web Request      (3818:5878)] "POST /service/update2/json?cup2key=13:xHeayQ9H1yjj5mp1AtqnOl7X9KyRncEvszcrHwDAoMU&cup2hreq=5c87c247edfd39403bb4dbc3061f792ab0a5e6803b342c74a7d3b5c5cfc82ce8"   
+[Network Analyzer (3818:5878)]   (Sid: 14) Client -> Server @ : 885 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:3628)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:3628)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3818:5878)]   (Sid: 19) Client -> Server @ : 1241 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 14) Server -> Client : 1043 bytes (SSL) (Service=HTTP)
+[Web Request      (3818:5878)] "POST /service/update2/json?cup2key=13:Dwbc5jN2kwZdoxpY2QolQe1_MI7luxunH7iK0OpNeRE&cup2hreq=ff2b5b897a387adb2d16063815008689e0fad0bbfef1aedf7b14fff0661cff2e"   
+[Network Analyzer (3818:5878)]   (Sid: 19) Client -> Server @ : 7288 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818: 4ec)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818: 4ec)] SSLAccept(ssl_id = 3071582185936 = 000002CB2890A9D0) Failed, ctx = 000002CB2857DD60, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3818: 4ec)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid: 14) Server -> Client : 388 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 1043 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 1276 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 255 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4c6c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3818:4c6c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3818:5878)] "GET /favicon.ico"   
+[Network Analyzer (3818:5878)]   (Sid: 21) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Web Request      (3818:5878)] "GET /time/1/current?cup2key=7:JRxv3rM-vx8PVhvjoFV-jWO34g8mKEs7O6PzAMD3t3E&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"   
+[Network Analyzer (3818:5878)]   (Sid: 15) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 21) Server -> Client : 995 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 15) Server -> Client : 1161 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 15) Server -> Client : 114 bytes  (Service=HTTP)
+[Web Request      (3818:5878)] "GET /time/1/current?cup2key=7:_N9cUf80reQfEkz1vjyB5O3z5kKoXDJ6POoNZ8yIhW0&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"   
+[Network Analyzer (3818:5878)]   (Sid: 15) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 15) Server -> Client : 1278 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (3818:5878)] "POST /service/update2/json"   
+[Network Analyzer (3818:5878)]   (Sid: 19) Client -> Server @ : 1318 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 595 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.76.170:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (3818:49b4)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:49b4)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3818:5878)] "GET /v4/threatListUpdates:fetch?$req=ChkKCGNocm9taXVtEg0xMjAuMC42MDk5LjYzGgwIBRABIgQgASACKAEaDAgBEAEiBCABIAIoARoMCAMQASIEIAEgAigBGgwIBxABIgQgASACKAEaDAgBEAgiBCABIAIoBBoMCA8QASIEIAEgAigBGgwICRABIgQgASACKAEiAggB&$ct=application/x-protobuf&key=dummytoken"   
+[Network Analyzer (3818:5878)]   (Sid: 22) Client -> Server @ : 590 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 22) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 23)  PROXIED!
+[Net An. Error    (3818:5b80)] SSL_connect(ssl_id = 3071582193280 = 000002CB2890C680) Failed, ctx = 000002CB28513390, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000438:SSL routines::tlsv1 alert internal error
+"
+[Net An. Error    (3818:5b80)]   (Sid: 23) SSL handshake with remote server Failed!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 23.63.84.209:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3818:5830)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:5830)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3818:5878)] "GET /dc-hosted-extension/ote-config.json"   
+[Network Analyzer (3818:5878)]   (Sid: 24) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 24) Server -> Client : 1042 bytes (SSL) (Service=HTTP)
+[Web Request      (3818:5878)] "GET /dc-hosted-extension/ote-config.json"   
+[Network Analyzer (3818:5878)]   (Sid: 24) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 24) Server -> Client : 1041 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (3818:5878)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      (3818:5878)] "GET /actions/Catalog.action"   
+[Network Analyzer (3818:5878)]   (Sid: 21) Client -> Server @ : 715 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 21) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 21) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 21) Server -> Client : 1471 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent ClickOnSignIn [Network Analyzer (3818:5878)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 25) Client -> Server @ : 51 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 25) Server -> Client : 1106 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (3818:5878)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3818:5878)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (3818:5878)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:5878)]   (Sid: 26) Client -> Server @ : 55 bytes 
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.205.131:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Web Request      (3818:5878)] "GET /generate_204"   
+[Network Analyzer (3818:5878)]   (Sid: 27) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.206.10:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 26) Server -> Client : 1110 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 27) Server -> Client : 247 bytes  (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 78.46.109.21:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (3818: 3d4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818: 3d4)] SSLAccept(ssl_id = 3071577296144 = 000002CB28460D10) Failed, ctx = 000002CB2856C2D0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3818: 3d4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (3818:4dd8)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3818:4dd8)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3818:5878)] "GET /actions/Account.action;jsessionid=19061EAD33C7F9662EC063438F1A1265?signonForm="   
+[Network Analyzer (3818:5878)]   (Sid: 29) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 29) Server -> Client : 4093 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.251.43.234:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (3818:2ee8)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818:2ee8)] SSLAccept(ssl_id = 3071577311024 = 000002CB28464730) Failed, ctx = 000002CB2856C2D0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3818:2ee8)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid: 30) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (29ec: e44)] Insert Text Check: "Register Now!"
+[User action                 ] EndTransactionEvent ClickOnSignIn [Network Analyzer (3818:5878)]   (Sid: 27) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent ClickOnRegistration [Web Request      (3818:5878)] "GET /actions/Account.action?newAccountForm="   
+[Network Analyzer (3818:5878)]   (Sid: 29) Client -> Server @ : 862 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 29) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 29) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 29) Server -> Client : 1865 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 31) Client -> Server @ : 51 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 31) Server -> Client : 1106 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (3818:5878)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 32) Client -> Server @ : 55 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 32) Server -> Client : 1110 bytes 
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.251.223.170:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (3818: 320)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3818: 320)] SSLAccept(ssl_id = 3071577296144 = 000002CB28460D10) Failed, ctx = 000002CB2856C2D0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3818: 320)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3818:5878)]   (Sid: 33) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (29ec: e44)] Insert Text Check: "User Information"
+[WebMultiInProcNotify_x64:  (29ec: e44)] Insert Text Check: "User Information"
+[User action                 ] EndTransactionEvent ClickOnRegistration [Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 34) Client -> Server @ : 49 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 34) Server -> Client : 1104 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (3818:5878)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 35) Client -> Server @ : 55 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 35) Server -> Client : 1110 bytes 
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 142.250.183.170:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (3818:5124)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3818:5124)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3818:5878)] "POST /v1:GetModels?key=dummytoken"   
+[Network Analyzer (3818:5878)]   (Sid: 36) Client -> Server @ : 1230 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 36) Server -> Client : 803 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 78.46.109.21:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (3818:42fc)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3818:42fc)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3818:5878)]   (Sid: 37) Client -> Server @ : 942 bytes (SSL)(Service=HTTP)
+[Web Request      (3818:5878)] "POST /actions/Account.action"   
+[Network Analyzer (3818:5878)]   (Sid: 37) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 37) Server -> Client : 230 bytes (SSL) (Service=HTTP)
+[Web Request      (3818:5878)] "GET /actions/Catalog.action"   
+[Network Analyzer (3818:5878)]   (Sid: 37) Client -> Server @ : 832 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 37) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 37) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:5878)]   (Sid: 37) Server -> Client : 780 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3818:4950)] Address lookup for N3NXCV18C635125 = 10.233.105.255
+[Network Analyzer (3818:4950)] Request Connection: Remote Server @ 10.232.240.221:53   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (3818:5878)]   (Sid: 38) Client -> Server @ : 51 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 38) Server -> Client : 1106 bytes 
+[Network Analyzer (3818:5878)]   (Sid: 38) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (29ec: e44)] Insert Text Check: "Elevate you load-testing"
+[WebMultiInProcNotify_x64:  (29ec: e44)] Insert Text Check: "Elevate you load-testing"

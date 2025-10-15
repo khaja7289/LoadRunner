@@ -1,0 +1,7 @@
+#include "lrun.h"
+#include "SharedParameter.h"
+#include "globals.h"
+#include "vuser_init.c"
+#include "Imported_AddToCard.c"
+#include "Imported_UpdateCart.c"
+#include "vuser_end.c"

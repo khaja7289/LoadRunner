@@ -1,0 +1,12 @@
+POST /actions/Account.action HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Referer: https://petstore.octoperf.com/actions/Account.action;jsessionid=A9C91F6D1E9AEBCE1A20059FEF1CCC6D?signonForm=
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: petstore.octoperf.com
+Cookie: JSESSIONID=A9C91F6D1E9AEBCE1A20059FEF1CCC6D
+Content-Length: 233
+

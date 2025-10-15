@@ -1,0 +1,27 @@
+{
+    "rollbackFeatureFlags": [],
+    "floodgateTTLs": {
+        "adobeInternalTTL": 900000,
+        "adobeExternalTTL": 43200000
+    },
+    "oneTimeActivities": {
+        "common-moderation-list": {
+            "id": "a7f8c9d2-e4b5-4f1a-9c3d-8e2f1a5b7c9",
+            "timeDelay": 0,
+            "adobeInternal": true,
+            "adobeExternal": true
+        },
+        "kw-moderation-list": {
+            "id": "e2eefe83-7232-40ca-b1e4-1b53b2e93f89",
+            "timeDelay": 0,
+            "adobeInternal": true,
+            "adobeExternal": true
+        },
+        "express-moderation-list": {
+            "id": "7e1001b2-2cd2-43cd-87b9-f49a6e5f6f5b",
+            "timeDelay": 0,
+            "adobeInternal": true,
+            "adobeExternal": true
+        }
+    }
+}

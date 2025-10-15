@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Last-Modified: Tue, 30 Sep 2025 17:19:08 GMT
+ETag: "273dd26ed4640f96bd5cb20da93949f3"
+x-amz-server-side-encryption: AES256
+Cache-Control: max-age=600, must-revalidate
+Accept-Ranges: bytes
+Content-Type: text/html
+Vary: Accept-Encoding
+Content-Encoding: br
+Content-Length: 237
+Date: Wed, 01 Oct 2025 16:14:56 GMT
+Connection: keep-alive
+Set-Cookie: AKA_A2=A; expires=Wed, 01-Oct-2025 17:14:56 GMT; path=/; domain=adobe.com; secure; HttpOnly
+Content-Security-Policy: base-uri 'self'; block-all-mixed-content; child-src 'self'; connect-src 'self' *.sentry.io *.adobe.io *.adobelogin.com *.adobe.io *.acrobat.com geo-dc.adobe.com *.services.adobe.com *.uservoice.com *.adobecontent.io wwwimages2.adobe.com sstats.adobe.com performance.typekit.net wss://performance.typekit.net use.typekit.net p.typekit.net primer.typekit.net acroipm2.adobe.com prod.adobeccstatic.com *.behance.net faster.typekit.net *.adobesign.com *.adobesigncdn.com *.echosign.com *.echocdn.com documents.adobe.com *.documents.adobe.com *.demdex.net adobe.tt.omtrdc.net accounts.google.com/gsi/status accounts.google.com/gsi/log commerce.adobe.com auth-light.identity.adobe.com odin.adobe.com *.amazonaws.com *.blob.core.windows.net cdn-sharing.adobecc.com blob:; default-src 'self' *.adobelogin.com/favicon.ico; font-src 'self' data: use.typekit.com use.typekit.net fonts.typekit.com prod.adobeccstatic.com *.behance.net *.adobesign.com *.adobesigncdn.com *.echosign.com *.echocdn.com documents.adobe.com *.documents.adobe.com; form-action *.adobelogin.com; frame-src 'self' *.uservoice.com *.services.adobe.com *.adobesign.com *.adobesigncdn.com *.echosign.com *.echocdn.com documents.adobe.com *.documents.adobe.com documentcloud.adobe.com accounts.google.com commerce.adobe.com auth-light.identity.adobe.com acrs.adobe.com/requestAccess; media-src 'self'; img-src 'self' about: data: blob: wwwimages.adobe.com p.typekit.net *.adobelogin.com prod.adobeccstatic.com *.behance.net pps.services.adobe.com *.adobesign.com *.adobesigncdn.com *.echosign.com *.echocdn.com documents.adobe.com *.documents.adobe.com dpm.demdex.net sstats.adobe.com cm.everesttech.net c.evidon.com l.betrad.com odin.adobe.com; manifest-src 'self'; script-src 'self' 'unsafe-eval' www.adobe.com wwwimages2.adobe.com *.adobeccstatic.com *.adobelogin.com api.demandbase.com/api/v3/ip.json *.uservoice.com use.typekit.com use.typekit.net prod.adobeccstatic.com *.behance.net assets.adobedtm.com www.adobe.com/marketingtech/ c.evidon.com accounts.google.com/gsi/client commerce.adobe.com auth-light.identity.adobe.com auth.services.adobe.com; style-src 'self' 'unsafe-inline' wwwimages2.adobe.com *.adobeccstatic.com use.typekit.com use.typekit.net prod.adobeccstatic.com c.evidon.com accounts.google.com/gsi/style; worker-src 'self'; frame-ancestors 'self' chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj chrome-extension://memepcobodlebmohdlfnjiaalggfcpic chrome-extension://dagpahdciccokkcaioeejhkippljgcci chrome-extension://iagfemhobomkehjbnkfipenmdancdjff chrome-extension://djadjknidgpacfohfhmimdifiggegoci chrome-extension://gmffcajdjnipmjhlpohkmdkppflcooje chrome-extension://elhekieabhbkpmcefcoobjddigjcaadp chrome-extension://hgednelcgbmkdebjhejlmbgigmkcbemg chrome-extension://koknlmjfmkeaclpcgkfecddjfkoffgbo; object-src 'self'; report-uri https://dc-api.adobe.io/system/csp;
+X-Robots-Tag: noindex, nofollow
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS
+Access-Control-Allow-Origin: *
+Akamai-GRN: 0.cd543f17.1759335296.b206c4
+Server-Timing: ak_p; desc="1759335296655_390026445_11667140_10_926_1_28_-";dur=1
+

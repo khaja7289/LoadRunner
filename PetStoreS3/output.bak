@@ -1,0 +1,92 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 01-10-2025 21:24:56
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\10738962\Documents\VuGen\Scripts\PetStoreS3\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+vuser_init.c(3): Script Started
+vuser_init.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+vuser_init.c(6): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+vuser_init.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(9): Notify: Transaction "LaunchPetStore" started.
+vuser_init.c(9): Warning: Failed to get NV emulation handle.
+vuser_init.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(13): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(13): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(13): Registered web_reg_find successful for "Text=Welcome to JPetStore 6" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(13): web_url("petstore.octoperf.com") was successful, 7129 body bytes, 743 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(21): Notify: Transaction "LaunchPetStore" ended with a "Pass" status (Duration: 2.3684 Wasted Time: 0.0971).
+vuser_init.c(25): Notify: Transaction "EnterToPetStore" started.
+vuser_init.c(25): Warning: Failed to get NV emulation handle.
+vuser_init.c(26): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(26): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(29): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(29): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Registered web_reg_find successful for "Text=OctoPerf" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(29): web_url("Catalog.action") was successful, 63413 body bytes, 5602 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(37): Notify: Transaction "EnterToPetStore" ended with a "Pass" status (Duration: 1.7362 Wasted Time: 0.0231).
+vuser_init.c(41): Notify: Transaction "ClickOnSignIn" started.
+vuser_init.c(41): Warning: Failed to get NV emulation handle.
+vuser_init.c(43): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(43): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(46): web_link("Sign In") started  	[MsgId: MMSG-26355]
+vuser_init.c(46): Linking to "https://petstore.octoperf.com/actions/Account.action;jsessionid=A1AEC066773165C3A6B41648237E6875?signonForm=", Target Frame=""  	[MsgId: MMSG-27994]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(46): Registered web_reg_find successful for "Text=Please enter your username and password" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(46): web_link("Sign In") was successful, 3860 body bytes, 335 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(51): Notify: Transaction "ClickOnSignIn" ended with a "Pass" status (Duration: 0.3350 Wasted Time: 0.0128).
+vuser_init.c(55): Notify: Transaction "Login" started.
+vuser_init.c(55): Warning: Failed to get NV emulation handle.
+vuser_init.c(56): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(58): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+vuser_init.c(58): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+vuser_init.c(64): web_submit_form("Account.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(64): Submitting form to "https://petstore.octoperf.com/actions/Account.action", Target Frame=""  	[MsgId: MMSG-27978]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(64): Error -35049: No match found for the requested parameter "ProductName". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+vuser_init.c(64): Error -26366: "Text=My Account" not found for web_reg_find  	[MsgId: MERR-26366]
+vuser_init.c(64): web_submit_form("Account.action") highest severity level was "ERROR", 3938 body bytes, 335 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(64): Notify: Transaction "Login" ended with a "Fail" status (Duration: 0.5129 Wasted Time: 0.0089).
+vuser_init.c(64): Notify: Transaction "Login" has 1 error message(s).
+vuser_init.c(64): Notify: The 1st error message associated with transaction "Login" is "Error -26366: "Text=My Account" not found for web_reg_find"
+Abort was called from an action.

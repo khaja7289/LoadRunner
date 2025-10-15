@@ -1,0 +1,8 @@
+GET /time/1/current?cup2key=7:Mz91bekMq16mYEBdWr2NMnXEtifWVHNxwHVSpegiPHg&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 HTTP/1.1
+Host: clients2.google.com
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
