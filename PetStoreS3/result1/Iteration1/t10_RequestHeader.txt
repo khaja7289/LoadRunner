@@ -1,9 +1,9 @@
-GET /actions/Catalog.action?viewItem=&itemId=EST-27 HTTP/1.1
-Referer: https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-CW-01
+GET /actions/Catalog.action?viewItem=&itemId=EST-18 HTTP/1.1
+Referer: https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=AV-CB-01
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=24AE418B946946843E6364E261DC87CC
+Cookie: JSESSIONID=1F6244E02219D7EC2D26D3B148B971BB
 

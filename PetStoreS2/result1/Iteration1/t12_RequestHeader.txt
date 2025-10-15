@@ -5,5 +5,5 @@ Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=DD66AB616D0C05E2C639863D0EEAC5B0
+Cookie: JSESSIONID=6441BAEDA09F7938288621343E9EF196
 

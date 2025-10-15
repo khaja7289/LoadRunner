@@ -6,55 +6,55 @@
                 "stepId": "STEP5",
                 "stepName": "Url: Catalog.action_2",
                 "infFile": "t7.inf",
-                "time": 1760429178539
+                "time": 1760546024784
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Link: {RandproductId}",
                 "infFile": "t9.inf",
-                "time": 1760429179140
+                "time": 1760546025665
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Link: {RanditemId}",
                 "infFile": "t10.inf",
-                "time": 1760429180267
+                "time": 1760546027054
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Link: Add to Cart",
                 "infFile": "t11.inf",
-                "time": 1760429180814
+                "time": 1760546027740
             }
         ],
         "transactions": [
             {
                 "transactionName": "AddAproduct",
-                "rawStartTime": 1760429178051,
-                "rawEndTime": 1760429178548,
+                "rawStartTime": 1760546024228,
+                "rawEndTime": 1760546024791,
                 "thinkTime": 0.0,
-                "wastedTime": 0.008197784423828125
+                "wastedTime": 0.010872602462768555
             },
             {
                 "transactionName": "SelectProductId",
-                "rawStartTime": 1760429178657,
-                "rawEndTime": 1760429179146,
+                "rawStartTime": 1760546024918,
+                "rawEndTime": 1760546025679,
                 "thinkTime": 0.0,
-                "wastedTime": 0.009314775466918946
+                "wastedTime": 0.017996549606323243
             },
             {
                 "transactionName": "SelectItemId",
-                "rawStartTime": 1760429179237,
-                "rawEndTime": 1760429180272,
+                "rawStartTime": 1760546025788,
+                "rawEndTime": 1760546027063,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0038766860961914064
+                "wastedTime": 0.010495901107788086
             },
             {
                 "transactionName": "AddToCard",
-                "rawStartTime": 1760429180348,
-                "rawEndTime": 1760429180828,
+                "rawStartTime": 1760546027188,
+                "rawEndTime": 1760546027748,
                 "thinkTime": 0.0,
-                "wastedTime": 0.006251096725463867
+                "wastedTime": 0.00818943977355957
             }
         ]
     }

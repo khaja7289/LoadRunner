@@ -42,6 +42,7 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserCredentilas1.dat" Filter="1" />
     <FileEntry Name="UserCredentilas3.dat" Filter="1" />
     <FileEntry Name="UserName,dat" Filter="1" />

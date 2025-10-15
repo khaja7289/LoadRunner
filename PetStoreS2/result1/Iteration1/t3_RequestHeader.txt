@@ -1,9 +1,9 @@
-GET /actions/Account.action;jsessionid=DD66AB616D0C05E2C639863D0EEAC5B0?signonForm= HTTP/1.1
+GET /actions/Account.action;jsessionid=6441BAEDA09F7938288621343E9EF196?signonForm= HTTP/1.1
 Referer: https://petstore.octoperf.com/actions/Catalog.action
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=DD66AB616D0C05E2C639863D0EEAC5B0
+Cookie: JSESSIONID=6441BAEDA09F7938288621343E9EF196
 

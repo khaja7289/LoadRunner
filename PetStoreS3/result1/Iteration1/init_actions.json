@@ -6,55 +6,55 @@
                 "stepId": "STEP1",
                 "stepName": "Url: petstore.octoperf.com",
                 "infFile": "t1.inf",
-                "time": 1759334188472
+                "time": 1760547202358
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: Catalog.action",
                 "infFile": "t2.inf",
-                "time": 1759334190107
+                "time": 1760547208043
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Link: Sign In",
                 "infFile": "t3.inf",
-                "time": 1759334190491
+                "time": 1760547212421
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Form: Account.action",
                 "infFile": "t5.inf",
-                "time": 1759334191405
+                "time": 1760547218891
             }
         ],
         "transactions": [
             {
                 "transactionName": "LaunchPetStore",
-                "rawStartTime": 1759334185596,
-                "rawEndTime": 1759334188472,
+                "rawStartTime": 1760547199604,
+                "rawEndTime": 1760547202358,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0958089828491211
+                "wastedTime": 0.07743978500366211
             },
             {
                 "transactionName": "EnterToPetStore",
-                "rawStartTime": 1759334188472,
-                "rawEndTime": 1759334190107,
+                "rawStartTime": 1760547205544,
+                "rawEndTime": 1760547208043,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01898670196533203
+                "wastedTime": 0.014233112335205078
             },
             {
                 "transactionName": "ClickOnSignIn",
-                "rawStartTime": 1759334190108,
-                "rawEndTime": 1759334190491,
+                "rawStartTime": 1760547211837,
+                "rawEndTime": 1760547212421,
                 "thinkTime": 0.0,
-                "wastedTime": 0.010709524154663086
+                "wastedTime": 0.00948786735534668
             },
             {
                 "transactionName": "Login",
-                "rawStartTime": 1759334190491,
-                "rawEndTime": 1759334191405,
+                "rawStartTime": 1760547217322,
+                "rawEndTime": 1760547218891,
                 "thinkTime": 0.0,
-                "wastedTime": 0.009342432022094727
+                "wastedTime": 0.009226322174072266
             }
         ]
     }

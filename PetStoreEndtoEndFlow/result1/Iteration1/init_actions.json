@@ -6,42 +6,42 @@
                 "stepId": "STEP1",
                 "stepName": "Url: petstore.octoperf.com",
                 "infFile": "t1.inf",
-                "time": 1760428371809
+                "time": 1760546656208
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: Catalog.action",
                 "infFile": "t2.inf",
-                "time": 1760428378271
+                "time": 1760546662419
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Link: Sign In",
                 "infFile": "t3.inf",
-                "time": 1760428382775
+                "time": 1760546665717
             }
         ],
         "transactions": [
             {
                 "transactionName": "LaunchPetStore",
-                "rawStartTime": 1760428369534,
-                "rawEndTime": 1760428371809,
+                "rawStartTime": 1760546653332,
+                "rawEndTime": 1760546656209,
                 "thinkTime": 0.0,
-                "wastedTime": 0.08619070053100586
+                "wastedTime": 0.09880352020263672
             },
             {
                 "transactionName": "EnterToPetStore",
-                "rawStartTime": 1760428375888,
-                "rawEndTime": 1760428378271,
+                "rawStartTime": 1760546660036,
+                "rawEndTime": 1760546662419,
                 "thinkTime": 0.0,
-                "wastedTime": 0.016701459884643556
+                "wastedTime": 0.016957998275756837
             },
             {
                 "transactionName": "ClickOnSignIn",
-                "rawStartTime": 1760428382364,
-                "rawEndTime": 1760428382776,
+                "rawStartTime": 1760546665266,
+                "rawEndTime": 1760546665717,
                 "thinkTime": 0.0,
-                "wastedTime": 0.01818704605102539
+                "wastedTime": 0.010439634323120118
             }
         ]
     }

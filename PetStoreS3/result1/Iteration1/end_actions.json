@@ -6,16 +6,16 @@
                 "stepId": "STEP13",
                 "stepName": "Url: Account.action_2",
                 "infFile": "t16.inf",
-                "time": 1759334196622
+                "time": 1760547247918
             }
         ],
         "transactions": [
             {
                 "transactionName": "SignOut",
-                "rawStartTime": 1759334196043,
-                "rawEndTime": 1759334196622,
+                "rawStartTime": 1760547247271,
+                "rawEndTime": 1760547247919,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0057218074798583988
+                "wastedTime": 0.004689216613769531
             }
         ]
     }

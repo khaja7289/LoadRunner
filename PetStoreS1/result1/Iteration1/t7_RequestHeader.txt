@@ -1,9 +1,9 @@
-GET /actions/Catalog.action?viewCategory=&categoryId=CATS HTTP/1.1
+GET /actions/Catalog.action?viewCategory=&categoryId=BIRDS HTTP/1.1
 Referer: https://petstore.octoperf.com/actions/Catalog.action
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=A9C91F6D1E9AEBCE1A20059FEF1CCC6D
+Cookie: JSESSIONID=85CBBFFC0A4A4AF4BB93C2D51288DCE6
 
