@@ -1,60 +1,132 @@
 [
     {
-        "actionName": "Imported_AddToCard",
+        "actionName": "Login",
         "steps": [
             {
+                "stepId": "STEP4",
+                "stepName": "Link: Register Now!",
+                "infFile": "t4.inf",
+                "time": 1760603695801
+            },
+            {
                 "stepId": "STEP5",
-                "stepName": "Url: Catalog.action_2",
-                "infFile": "t7.inf",
-                "time": 1760546024784
+                "stepName": "Submit Form: Account.action",
+                "infFile": "t5.inf",
+                "time": 1760603699712
             },
             {
                 "stepId": "STEP6",
-                "stepName": "Link: {RandproductId}",
-                "infFile": "t9.inf",
-                "time": 1760546025665
+                "stepName": "Url: Account.action_2",
+                "infFile": "t6.inf",
+                "time": 1760603703419
             },
             {
                 "stepId": "STEP7",
-                "stepName": "Link: {RanditemId}",
-                "infFile": "t10.inf",
-                "time": 1760546027054
+                "stepName": "Link: Sign In",
+                "infFile": "t7.inf",
+                "time": 1760603703897
             },
             {
                 "stepId": "STEP8",
-                "stepName": "Link: Add to Cart",
-                "infFile": "t11.inf",
-                "time": 1760546027740
+                "stepName": "Submit Form: Account.action",
+                "infFile": "t9.inf",
+                "time": 1760603708153
             }
         ],
         "transactions": [
             {
-                "transactionName": "AddAproduct",
-                "rawStartTime": 1760546024228,
-                "rawEndTime": 1760546024791,
+                "transactionName": "PetStore_ClickOnRegistration_T01",
+                "rawStartTime": 1760603695390,
+                "rawEndTime": 1760603695802,
                 "thinkTime": 0.0,
-                "wastedTime": 0.010872602462768555
+                "wastedTime": 0.004256010055541992
             },
             {
-                "transactionName": "SelectProductId",
-                "rawStartTime": 1760546024918,
-                "rawEndTime": 1760546025679,
+                "transactionName": "PetStore_SubmitRegistration_T02",
+                "rawStartTime": 1760603698864,
+                "rawEndTime": 1760603699712,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017996549606323243
+                "wastedTime": 0.006376504898071289
             },
             {
-                "transactionName": "SelectItemId",
-                "rawStartTime": 1760546025788,
-                "rawEndTime": 1760546027063,
+                "transactionName": "PetStore_SignOut_T03",
+                "rawStartTime": 1760603702695,
+                "rawEndTime": 1760603703419,
                 "thinkTime": 0.0,
-                "wastedTime": 0.010495901107788086
+                "wastedTime": 0.004725933074951172
             },
             {
-                "transactionName": "AddToCard",
-                "rawStartTime": 1760546027188,
-                "rawEndTime": 1760546027748,
+                "transactionName": "PetStore_ClickOnSignIn_T01",
+                "rawStartTime": 1760603703488,
+                "rawEndTime": 1760603703906,
                 "thinkTime": 0.0,
-                "wastedTime": 0.00818943977355957
+                "wastedTime": 0.005629777908325195
+            },
+            {
+                "transactionName": "PetStore_Login_T01",
+                "rawStartTime": 1760603707142,
+                "rawEndTime": 1760603708166,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014056205749511719
+            }
+        ]
+    },
+    {
+        "actionName": "AddToCard",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Catalog.action_2",
+                "infFile": "t11.inf",
+                "time": 1760603708914
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Link: {RandproductId}",
+                "infFile": "t13.inf",
+                "time": 1760603712527
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Link: {RanditemId}",
+                "infFile": "t14.inf",
+                "time": 1760603718321
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t15.inf",
+                "time": 1760603722572
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "PetStore_AddAproduct_T01",
+                "rawStartTime": 1760603708366,
+                "rawEndTime": 1760603708926,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00824737548828125
+            },
+            {
+                "transactionName": "PetStore_SelectProductId_T02",
+                "rawStartTime": 1760603712054,
+                "rawEndTime": 1760603712539,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007287263870239258
+            },
+            {
+                "transactionName": "PetStore_SelectItemId_T03",
+                "rawStartTime": 1760603717113,
+                "rawEndTime": 1760603718332,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007333278656005859
+            },
+            {
+                "transactionName": "PetStore_AddToCard_T04",
+                "rawStartTime": 1760603722086,
+                "rawEndTime": 1760603722583,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004530191421508789
             }
         ]
     }

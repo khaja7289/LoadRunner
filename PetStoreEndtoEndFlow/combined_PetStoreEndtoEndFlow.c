@@ -8,5 +8,4 @@
 #include "UpdateCart.c"
 #include "CheckOutThProduct.c"
 #include "Registration.c"
-#include "LoginRegisterUser.c"
 #include "vuser_end.c"

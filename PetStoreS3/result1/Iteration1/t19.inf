@@ -1,0 +1,13 @@
+[t19]
+SnapshotXmlFile=snapshot_16.xml
+ContentType=text/html
+StepName=Link: Confirm
+Total=1
+FileName1=t19.html
+RequestHeaderFile=t19_RequestHeader.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+RawStepEndTime=1760604589243
+RawStepName=Confirm
+RequestBodyFile=t19_RequestBody.txt
+RawStepStartTime=1760604588748
+URL1=https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true

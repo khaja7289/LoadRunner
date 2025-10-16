@@ -1,13 +1,13 @@
 [t13]
 SnapshotXmlFile=snapshot_10.xml
 ContentType=text/html
-StepName=Link: Proceed to Checkout
+StepName=Link: {RandproductId}
 Total=1
 FileName1=t13.html
 RequestHeaderFile=t13_RequestHeader.txt
 ResponseHeaderFile=t13_ResponseHeader.txt
-RawStepEndTime=1760547238062
-RawStepName=Proceed to Checkout
+RawStepEndTime=1760604567165
+RawStepName={RandproductId}
 RequestBodyFile=t13_RequestBody.txt
-RawStepStartTime=1760547237550
-URL1=https://petstore.octoperf.com/actions/Order.action?newOrderForm=
+RawStepStartTime=1760604566188
+URL1=https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-RT-02

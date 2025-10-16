@@ -4,8 +4,10 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Imported_AddToCard.c" Filter="2" />
-    <FileEntry Name="Imported_UpdateCart.c" Filter="2" />
+    <FileEntry Name="AddToCard.c" Filter="2" />
+    <FileEntry Name="UpdateCart.c" Filter="2" />
+    <FileEntry Name="Login.c" Filter="2" />
+    <FileEntry Name="Registration.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -15,6 +17,12 @@
     <FileEntry Name="PetStoreS2.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="UserCredentilas.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas5.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas6.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas7.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas4.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas2.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas8.dat" Filter="2" />
     <FileEntry Name="combined_PetStoreS2.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="218138001440.idx" Filter="1" />
@@ -22,7 +30,13 @@
     <FileEntry Name="21813800144_Mff.251.idx" Filter="1" />
     <FileEntry Name="21813800144_P9r.387.idx" Filter="1" />
     <FileEntry Name="21813800144_rcs.689.idx" Filter="1" />
+    <FileEntry Name="6303943440.idx" Filter="1" />
+    <FileEntry Name="6631591440.idx" Filter="1" />
+    <FileEntry Name="6697159440.idx" Filter="1" />
     <FileEntry Name="67517699440.idx" Filter="1" />
+    <FileEntry Name="6959559440.idx" Filter="1" />
+    <FileEntry Name="7025127440.idx" Filter="1" />
+    <FileEntry Name="7614919440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />

@@ -2,5 +2,7 @@
 #include "SharedParameter.h"
 #include "globals.h"
 #include "vuser_init.c"
-#include "Imported_AddToCard.c"
+#include "AddToCard.c"
+#include "Login.c"
+#include "Registration.c"
 #include "vuser_end.c"

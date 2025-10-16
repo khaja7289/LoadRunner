@@ -1,6 +1,6 @@
+[CheckOutThProduct]
+SnapshotIndex=I1_CheckOutThProduct
 [vuser_init]
 SnapshotIndex=I1_vuser_init
-[Imported_CheckOutThProduct]
-SnapshotIndex=I1_Imported_CheckOutThProduct
-[Imported_AddToCard]
-SnapshotIndex=I1_Imported_AddToCard
+[Login]
+SnapshotIndex=I1_Login

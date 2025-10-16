@@ -31,7 +31,6 @@ RemoveTheProduct=RemoveTheProduct.c
 UpdateCart=UpdateCart.c
 CheckOutThProduct=CheckOutThProduct.c
 Registration=Registration.c
-LoginRegisterUser=LoginRegisterUser.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -49,7 +48,6 @@ RemoveTheProduct=1
 UpdateCart=1
 CheckOutThProduct=1
 Registration=1
-LoginRegisterUser=1
 vuser_end=1
 [Recorded Actions]
 vuser_init=1
@@ -59,7 +57,6 @@ RemoveTheProduct=1
 UpdateCart=1
 CheckOutThProduct=1
 Registration=1
-LoginRegisterUser=0
 vuser_end=1
 [Replayed Actions]
 vuser_init=1
@@ -69,7 +66,6 @@ RemoveTheProduct=1
 UpdateCart=1
 CheckOutThProduct=1
 Registration=1
-LoginRegisterUser=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
@@ -79,32 +75,33 @@ RemoveTheProduct=cci
 UpdateCart=cci
 CheckOutThProduct=cci
 Registration=cci
-LoginRegisterUser=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="LaunchPetStore__*delimiter*__EnterToPetStore__*delimiter*__ClickOnSignIn__*delimiter*__AddAproduct__*delimiter*__SelectProductId__*delimiter*__SelectItemId__*delimiter*__AddToCard__*delimiter*__ClickOnSignIn__*delimiter*__Login__*delimiter*__ClickOnViewCartR__*delimiter*__ClickOnRemove__*delimiter*__ClickOnViewcart__*delimiter*__UpdateCart__*delimiter*__ClickOnViewCart__*delimiter*__ClickOnProccedToCheckOut__*delimiter*__ClickOnContinue__*delimiter*__ClickOnConform__*delimiter*__ClickOnRegistration__*delimiter*__SubmitRegistration__*delimiter*__SignOut__*delimiter*__ClickOnSignIn__*delimiter*__Login__*delimiter*__SignOut"
+Order="PetStore_LaunchPetStore_T01__*delimiter*__PetStore_EnterToPetStore_T02__*delimiter*__PetStore_ClickOnSignIn_T03__*delimiter*__PetStore_AddAproduct_T01__*delimiter*__PetStore_SelectProductId_T02__*delimiter*__PetStore_SelectItemId_T03__*delimiter*__PetStore_AddToCard_T04__*delimiter*__PetStore_ClickOnSignIn_T01__*delimiter*__PetStore_Login_T01__*delimiter*__PetStore_ClickOnViewCartR_T01__*delimiter*__PetStore_ClickOnRemove_T02__*delimiter*__PetStore_ClickOnViewcart_T01__*delimiter*__PetStore_UpdateCart_T02__*delimiter*__PetStore_ClickOnViewCart_T01__*delimiter*__PetStore_ClickOnProccedToCheckOut_T02__*delimiter*__PetStore_ClickOnContinue_T03__*delimiter*__PetStore_ClickOnConform_T04__*delimiter*__PetStore_ClickOnRegistration_T01__*delimiter*__PetStore_SubmitRegistration_T02__*delimiter*__PetStore_SignOut_T03__*delimiter*__PetStore_SignOut_T01"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-LaunchPetStore=
-EnterToPetStore=
-ClickOnSignIn=
-AddAproduct=
-SelectProductId=
-SelectItemId=
-AddToCard=
-Login=
-ClickOnViewCartR=
-ClickOnRemove=
-ClickOnViewcart=
-UpdateCart=
-ClickOnViewCart=
-ClickOnProccedToCheckOut=
-ClickOnContinue=
-ClickOnConform=
-ClickOnRegistration=
-SubmitRegistration=
-SignOut=
+PetStore_LaunchPetStore_T01=
+PetStore_EnterToPetStore_T02=
+PetStore_ClickOnSignIn_T03=
+PetStore_AddAproduct_T01=
+PetStore_SelectProductId_T02=
+PetStore_SelectItemId_T03=
+PetStore_AddToCard_T04=
+PetStore_ClickOnSignIn_T01=
+PetStore_Login_T01=
+PetStore_ClickOnViewCartR_T01=
+PetStore_ClickOnRemove_T02=
+PetStore_ClickOnViewcart_T01=
+PetStore_UpdateCart_T02=
+PetStore_ClickOnViewCart_T01=
+PetStore_ClickOnProccedToCheckOut_T02=
+PetStore_ClickOnContinue_T03=
+PetStore_ClickOnConform_T04=
+PetStore_ClickOnRegistration_T01=
+PetStore_SubmitRegistration_T02=
+PetStore_SignOut_T03=
+PetStore_SignOut_T01=

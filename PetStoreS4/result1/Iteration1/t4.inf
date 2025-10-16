@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Link: Register Now!
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1760604822818
+RawStepName=Register Now!
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1760604822497
+URL1=https://petstore.octoperf.com/actions/Account.action?newAccountForm=

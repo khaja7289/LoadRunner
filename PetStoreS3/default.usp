@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,Imported_AddToCard,Imported_CheckOutThProduct,vuser_end
+Profile Actions name=vuser_init,AddToCard,Login,CheckOutThProduct,Registration,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,9 +53,9 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="Imported_AddToCard,Imported_CheckOutThProduct"
+MercIniTreeSons="Login,CheckOutThProduct"
 Name="Run"
-RunLogicActionOrder="Imported_AddToCard,Imported_CheckOutThProduct"
+RunLogicActionOrder="Login,CheckOutThProduct"
 RunLogicActionType="VuserRun"
 RunLogicAfterPaceMax="10"
 RunLogicAfterPaceMin="5"
@@ -67,15 +67,15 @@ RunLogicPaceType="After"
 RunLogicRandomPaceMax="90"
 RunLogicRandomPaceMin="60"
 RunLogicRunMode="Sequential"
-[RunLogicRunRoot:Imported_AddToCard]
+[RunLogicRunRoot:CheckOutThProduct]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Imported_AddToCard"
-Name="Imported_AddToCard"
+MercIniTreeSectionName="CheckOutThProduct"
+Name="CheckOutThProduct"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
-[RunLogicRunRoot:Imported_CheckOutThProduct]
+[RunLogicRunRoot:Login]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Imported_CheckOutThProduct"
-Name="Imported_CheckOutThProduct"
+MercIniTreeSectionName="Login"
+Name="Login"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"

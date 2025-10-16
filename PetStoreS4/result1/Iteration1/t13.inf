@@ -1,13 +1,13 @@
 [t13]
 SnapshotXmlFile=snapshot_10.xml
 ContentType=text/html
-StepName=Link: Remove
+StepName=Link: {RandproductId}
 Total=1
 FileName1=t13.html
 RequestHeaderFile=t13_RequestHeader.txt
 ResponseHeaderFile=t13_ResponseHeader.txt
-RawStepEndTime=1760547369208
-RawStepName=Remove
+RawStepEndTime=1760604843921
+RawStepName={RandproductId}
 RequestBodyFile=t13_RequestBody.txt
-RawStepStartTime=1760547368861
-URL1=https://petstore.octoperf.com/actions/Cart.action?removeItemFromCart=&workingItemId=EST-5
+RawStepStartTime=1760604843489
+URL1=https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-PO-02

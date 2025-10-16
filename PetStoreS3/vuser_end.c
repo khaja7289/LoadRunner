@@ -1,7 +1,7 @@
 vuser_end()
 {
 
-	lr_start_transaction("SignOut");
+	lr_start_transaction("PetStore_SignOut_T01");
 
 	web_reg_find("Text=Sign In", 
 		LAST);
@@ -15,7 +15,7 @@ vuser_end()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("SignOut",LR_AUTO);
+	lr_end_transaction("PetStore_SignOut_T01",LR_AUTO);
 	
 	lr_output_message("Script Exection done sucessfully");
 	web_cache_cleanup();

@@ -4,7 +4,9 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Imported_AddToCard.c" Filter="2" />
+    <FileEntry Name="AddToCard.c" Filter="2" />
+    <FileEntry Name="Login.c" Filter="2" />
+    <FileEntry Name="Registration.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -15,13 +17,17 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="UserCredentilas1.dat" Filter="2" />
     <FileEntry Name="UserCredentilas3.dat" Filter="2" />
-    <FileEntry Name="UserCredentilas.dat" Filter="2" />
     <FileEntry Name="UserCredentilas4.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas5.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas.dat" Filter="2" />
+    <FileEntry Name="UserCredentilas6.dat" Filter="2" />
     <FileEntry Name="combined_PetStoreS1.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="224424126440.idx" Filter="1" />
+    <FileEntry Name="224686270440.idx" Filter="1" />
     <FileEntry Name="224751838440.idx" Filter="1" />
     <FileEntry Name="224817342440.idx" Filter="1" />
+    <FileEntry Name="225145246440.idx" Filter="1" />
     <FileEntry Name="64375811440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />

@@ -6,7 +6,7 @@ vuser_init()
 	web_cleanup_auto_headers();
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
-	lr_start_transaction("LaunchPetStore");
+	lr_start_transaction("PetStore_LaunchPetStore_T01");
 	
 		web_reg_find("Text=Welcome to JPetStore 6", 
 		LAST);
@@ -18,11 +18,11 @@ vuser_init()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		LAST);
-	lr_end_transaction("LaunchPetStore",LR_AUTO);
+	lr_end_transaction("PetStore_LaunchPetStore_T01",LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("EnterToPetStore");
+	lr_start_transaction("PetStore_EnterToPetStore_T02");
 	web_reg_find("Text=OctoPerf", 
 		LAST);
 
@@ -34,11 +34,11 @@ vuser_init()
 		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		LAST);
-	lr_end_transaction("EnterToPetStore",LR_AUTO);
+	lr_end_transaction("PetStore_EnterToPetStore_T02",LR_AUTO);
 	
 	lr_think_time(5);
 
-	lr_start_transaction("ClickOnSignIn");
+	lr_start_transaction("PetStore_ClickOnSignIn_T03");
 
 		web_reg_find("Text=Please enter your username and password", 
 		LAST);
@@ -48,7 +48,7 @@ vuser_init()
 		"Snapshot=t11.inf", 
 		LAST);
 
-	lr_end_transaction("ClickOnSignIn",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnSignIn_T03",LR_AUTO);
 
 
 	return 0;

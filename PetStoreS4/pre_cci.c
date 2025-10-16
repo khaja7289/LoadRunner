@@ -2623,7 +2623,7 @@ vuser_init()
 	web_cleanup_auto_headers();
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
-	lr_start_transaction("LaunchPetStore");
+	lr_start_transaction("PetStore_LaunchPetStore_T01");
 	
 		web_reg_find("Text=Welcome to JPetStore 6", 
 		"LAST");
@@ -2635,11 +2635,11 @@ vuser_init()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
-	lr_end_transaction("LaunchPetStore",2);
+	lr_end_transaction("PetStore_LaunchPetStore_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("EnterToPetStore");
+	lr_start_transaction("PetStore_EnterToPetStore_T02");
 	web_reg_find("Text=OctoPerf", 
 		"LAST");
 
@@ -2651,11 +2651,11 @@ vuser_init()
 		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		"LAST");
-	lr_end_transaction("EnterToPetStore",2);
-
-	lr_think_time(5);
+	lr_end_transaction("PetStore_EnterToPetStore_T02",2);
 	
-	lr_start_transaction("ClickOnSignIn");
+	lr_think_time(5);
+
+	lr_start_transaction("PetStore_ClickOnSignIn_T03");
 
 		web_reg_find("Text=Please enter your username and password", 
 		"LAST");
@@ -2665,42 +2665,22 @@ vuser_init()
 		"Snapshot=t11.inf", 
 		"LAST");
 
-	lr_end_transaction("ClickOnSignIn",2);
+	lr_end_transaction("PetStore_ClickOnSignIn_T03",2);
 
-	lr_think_time(5);
-	
-	lr_start_transaction("Login");
-		web_reg_find("Text=My Account", 
-		"LAST");
-	web_reg_save_param_regexp(
-		"ParamName=ProductName",
-		"RegExp=categoryId=(.*?)\" shape=\"RECT\"",
-		"Ordinal=All",
-		"LAST");
-
-	web_submit_form("Account.action", 
-		"Snapshot=t12.inf", 
-		"ITEMDATA", 
-		"Name=username", "Value={UserName}", "ENDITEM", 
-		"Name=password", "Value={pass}", "ENDITEM", 
-		"Name=signon", "Value=Login", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("Login",2);
 
 	return 0;
 }
 # 4 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
 
-# 1 "Imported_AddToCard.c" 1
-Imported_AddToCard()
+# 1 "AddToCard.c" 1
+AddToCard()
 {	
 	int randIndex;
     char *randVal;
     
 
 	
-	lr_start_transaction("AddAproduct");
+	lr_start_transaction("PetStore_AddAproduct_T01");
 
      
     randIndex = rand() % atoi(lr_eval_string("{ProductName_count}")) + 1;
@@ -2728,11 +2708,11 @@ Imported_AddToCard()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("AddAproduct",2);
+	lr_end_transaction("PetStore_AddAproduct_T01",2);
 	
 	lr_think_time(5);
 
-	lr_start_transaction("SelectProductId");
+	lr_start_transaction("PetStore_SelectProductId_T02");
 	
 
 	randIndex = rand() % atoi(lr_eval_string("{productId_count}")) + 1;
@@ -2755,11 +2735,11 @@ Imported_AddToCard()
 		"Snapshot=t14.inf", 
 		"LAST");
 
-	lr_end_transaction("SelectProductId",2);
+	lr_end_transaction("PetStore_SelectProductId_T02",2);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("SelectItemId");
+	lr_start_transaction("PetStore_SelectItemId_T03");
 	
 	
 	
@@ -2776,11 +2756,11 @@ Imported_AddToCard()
 		"Snapshot=t15.inf", 
 		"LAST");
 
-	lr_end_transaction("SelectItemId",2);
+	lr_end_transaction("PetStore_SelectItemId_T03",2);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("AddToCard");
+	lr_start_transaction("PetStore_AddToCard_T04");
 
 	web_reg_find("Text=Shopping Cart", 
 		"LAST");
@@ -2791,30 +2771,72 @@ Imported_AddToCard()
 		"Snapshot=t16.inf", 
 		"LAST");
 
-	lr_end_transaction("AddToCard",2);
+	lr_end_transaction("PetStore_AddToCard_T04",2);
 
 	return 0;
 }
 # 5 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
 
-# 1 "Imported_RemoveTheProduct.c" 1
-Imported_RemoveTheProduct()
+# 1 "Login.c" 1
+Login()
+{	
+	Registration();
+	lr_start_transaction("PetStore_ClickOnSignIn_T01");
+
+		web_reg_find("Text=Please enter your username and password", 
+		"LAST");
+
+	web_link("Sign In", 
+		"Text=Sign In", 
+		"Snapshot=t11.inf", 
+		"LAST");
+	lr_end_transaction("PetStore_ClickOnSignIn_T01",2);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("PetStore_Login_T01");
+		web_reg_find("Text=My Account", 
+		"LAST");
+	web_reg_save_param_regexp(
+		"ParamName=ProductName",
+		"RegExp=categoryId=(.*?)\" shape=\"RECT\"",
+		"Ordinal=All",
+		"LAST");
+
+	web_submit_form("Account.action", 
+		"Snapshot=t12.inf", 
+		"ITEMDATA", 
+		"Name=username", "Value={randomUsername}", "ENDITEM", 
+		"Name=password", "Value={randompass}", "ENDITEM", 
+		"Name=signon", "Value=Login", "ENDITEM", 
+		"LAST");
+
+	lr_end_transaction("PetStore_Login_T01",2);
+	return 0;
+}
+# 6 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
+
+# 1 "RemoveTheProduct.c" 1
+RemoveTheProduct()
 {
 
-	lr_start_transaction("ClickOnViewCartR");
+
+	AddToCard();
+	
+	lr_start_transaction("PetStore_ClickOnViewCartR_T01");
 	web_reg_find("Text=Shopping Cart", 
 		"LAST");
 	web_image("cart.gif", 
 		"Src=../images/cart.gif", 
 		"Snapshot=t29.inf", 
 		"LAST");
-	lr_end_transaction("ClickOnViewCartR",2);
+	lr_end_transaction("PetStore_ClickOnViewCartR_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnRemove");
+	lr_start_transaction("PetStore_ClickOnRemove_T02");
 
-	web_reg_find("Text=Your cart is empty.",
+	web_reg_find("Text=Your cart is empty.", 
 		"LAST");
 
 	web_link("Remove", 
@@ -2822,17 +2844,122 @@ Imported_RemoveTheProduct()
 		"Snapshot=t30.inf", 
 		"LAST");
 
-	lr_end_transaction("ClickOnRemove",2);
+	lr_end_transaction("PetStore_ClickOnRemove_T02",2);
 
 	return 0;
 }
-# 6 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
+# 7 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
 
-# 1 "vuser_end.c" 1
-vuser_end()
+# 1 "Registration.c" 1
+Registration()
 {
 
-	lr_start_transaction("SignOut");
+
+	char username[5];
+	char pass[4];
+	char firstName[6];
+	char lastName[6];
+	char phone[11];
+	char zip[6];
+	int i;
+	
+	
+	
+	lr_start_transaction("PetStore_ClickOnRegistration_T01");
+
+	web_reg_find("Text=User Information", 
+		"LAST");
+
+	web_link("Register Now!", 
+		"Text=Register Now!", 
+		"Snapshot=t59.inf", 
+		"LAST");
+
+	lr_end_transaction("PetStore_ClickOnRegistration_T01",2);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("PetStore_SubmitRegistration_T02");
+	
+	web_reg_find("Text=Elevate you load-testing", 
+		"LAST");
+	
+	for (i = 0; i < 4; i++) {
+	    username[i] = 'A' + (rand() % 26);  
+	}
+	username[4] = '\0';  
+	lr_save_string(username, "randomUsername");
+	
+	for (i = 0; i < 4; i++) {
+	    pass[i] = 'a' + (rand() % 26);  
+	}
+	pass[4] = '\0';  
+	lr_save_string(pass, "randompass");
+	
+	
+	for (i = 0; i < 5; i++) {
+	    firstName[i] = 'a' + (rand() % 26);
+	}
+	firstName[5] = '\0';
+	
+	 
+	for (i = 0; i < 5; i++) {
+	    lastName[i] = 'a' + (rand() % 26);
+	}
+	lastName[5] = '\0';
+	
+	lr_save_string(firstName, "randomFirstName");
+	lr_save_string(lastName, "randomLastName");
+	
+	
+	phone[0] = '9' + rand() % 3; 
+
+   
+    for(i = 1; i < 10; i++) {
+        phone[i] = '0' + rand() % 10;
+    }
+
+    phone[10] = '\0';
+
+    lr_save_string(phone, "RandomPhone");
+
+    
+	for(i = 0; i < 6; i++) {
+        zip[i] = '0' + rand() % 10;
+    }
+
+    zip[6] = '\0';  
+
+    lr_save_string(zip, "RandomZip");
+
+	
+	web_submit_form("Account.action", 
+		"Snapshot=t60.inf", 
+		"ITEMDATA", 
+		"Name=username", "Value={randomUsername}", "ENDITEM", 
+		"Name=password", "Value={randompass}", "ENDITEM", 
+		"Name=repeatedPassword", "Value={randompass}", "ENDITEM", 
+		"Name=account.firstName", "Value={randomFirstName}", "ENDITEM", 
+		"Name=account.lastName", "Value={randomLastName}", "ENDITEM", 
+		"Name=account.email", "Value={randomFirstName}{randomLastName}@gmail.com", "ENDITEM", 
+		"Name=account.phone", "Value={RandomPhone}", "ENDITEM", 
+		"Name=account.address1", "Value=dummy", "ENDITEM", 
+		"Name=account.address2", "Value=dummy", "ENDITEM", 
+		"Name=account.city", "Value=dummy", "ENDITEM", 
+		"Name=account.state", "Value=dummy", "ENDITEM", 
+		"Name=account.zip", "Value={RandomZip}", "ENDITEM", 
+		"Name=account.country", "Value=india", "ENDITEM", 
+		"Name=account.languagePreference", "Value=english", "ENDITEM", 
+		"Name=account.favouriteCategoryId", "Value=FISH", "ENDITEM", 
+		"Name=account.listOption", "Value=true", "ENDITEM", 
+		"Name=account.bannerOption", "Value=true", "ENDITEM", 
+		"Name=newAccount", "Value=Save Account Information", "ENDITEM", 
+		"LAST");
+	lr_end_transaction("PetStore_SubmitRegistration_T02",2);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("PetStore_SignOut_T03");
 
 	web_reg_find("Text=Sign In", 
 		"LAST");
@@ -2846,7 +2973,31 @@ vuser_end()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("SignOut",2);
+	lr_end_transaction("PetStore_SignOut_T03",2);
+	
+	return 0;
+}
+# 8 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
+
+# 1 "vuser_end.c" 1
+vuser_end()
+{
+
+	lr_start_transaction("PetStore_SignOut_T01");
+
+	web_reg_find("Text=Sign In", 
+		"LAST");
+
+	web_url("Account.action_2", 
+		"URL=https://petstore.octoperf.com/actions/Account.action?signoff=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://petstore.octoperf.com/actions/Cart.action?removeItemFromCart=&workingItemId=EST-18", 
+		"Snapshot=t31.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("PetStore_SignOut_T01",2);
 	
 	lr_output_message("Script Exection done sucessfully");
 	web_cache_cleanup();
@@ -2854,5 +3005,5 @@ vuser_end()
 
 	return 0;
 }
-# 7 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
+# 9 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstores4\\\\combined_PetStoreS4.c" 2
 

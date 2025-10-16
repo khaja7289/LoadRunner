@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,Imported_AddToCard,Imported_UpdateCart,vuser_end
+Profile Actions name=vuser_init,AddToCard,UpdateCart,Login,Registration,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,9 +53,9 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="Imported_AddToCard,Imported_UpdateCart"
+MercIniTreeSons="Login,AddToCard,UpdateCart"
 Name="Run"
-RunLogicActionOrder="Imported_AddToCard,Imported_UpdateCart"
+RunLogicActionOrder="Login,AddToCard,UpdateCart"
 RunLogicActionType="VuserRun"
 RunLogicAfterPaceMax="10"
 RunLogicAfterPaceMin="5"
@@ -67,15 +67,21 @@ RunLogicPaceType="After"
 RunLogicRandomPaceMax="90"
 RunLogicRandomPaceMin="60"
 RunLogicRunMode="Sequential"
-[RunLogicRunRoot:Imported_AddToCard]
+[RunLogicRunRoot:AddToCard]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Imported_AddToCard"
-Name="Imported_AddToCard"
+MercIniTreeSectionName="AddToCard"
+Name="AddToCard"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
-[RunLogicRunRoot:Imported_UpdateCart]
+[RunLogicRunRoot:Login]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Imported_UpdateCart"
-Name="Imported_UpdateCart"
+MercIniTreeSectionName="Login"
+Name="Login"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UpdateCart]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UpdateCart"
+Name="UpdateCart"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"

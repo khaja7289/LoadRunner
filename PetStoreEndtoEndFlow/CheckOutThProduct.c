@@ -1,7 +1,7 @@
 CheckOutThProduct()
 {
 
-	lr_start_transaction("ClickOnViewCart");
+	lr_start_transaction("PetStore_ClickOnViewCart_T01");
 	web_reg_find("Text=Shopping Cart", 
 		LAST);
 	web_url("Cart.action_4", 
@@ -12,11 +12,11 @@ CheckOutThProduct()
 		"Snapshot=t20.inf", 
 		"Mode=HTML", 
 		LAST);
-	lr_end_transaction("ClickOnViewCart",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnViewCart_T01",LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnProccedToCheckOut");
+	lr_start_transaction("PetStore_ClickOnProccedToCheckOut_T02");
 	web_reg_find("Text=Payment Details", 
 		LAST);
 
@@ -24,11 +24,11 @@ CheckOutThProduct()
 		"Text=Proceed to Checkout", 
 		"Snapshot=t21.inf", 
 		LAST);
-	lr_end_transaction("ClickOnProccedToCheckOut",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnProccedToCheckOut_T02",LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnContinue");
+	lr_start_transaction("PetStore_ClickOnContinue_T03");
 
 	web_reg_find("Text=Confirm", 
 		LAST);
@@ -51,11 +51,11 @@ CheckOutThProduct()
 		"Name=newOrder", "Value=Continue", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("ClickOnContinue",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnContinue_T03",LR_AUTO);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnConform");
+	lr_start_transaction("PetStore_ClickOnConform_T04");
 	web_reg_find("Text=Thank you, your order has been submitted", 
 		LAST);
 
@@ -63,7 +63,7 @@ CheckOutThProduct()
 		"Text=Confirm", 
 		"Snapshot=t23.inf", 
 		LAST);
-	lr_end_transaction("ClickOnConform",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnConform_T04",LR_AUTO);
 
 	return 0;
 }

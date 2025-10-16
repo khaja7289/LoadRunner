@@ -1,13 +1,13 @@
 [t7]
-SnapshotXmlFile=snapshot_5.xml
+SnapshotXmlFile=snapshot_7.xml
 ContentType=text/html
-StepName=Url: Catalog.action_2
+StepName=Link: Sign In
 Total=1
 FileName1=t7.html
 RequestHeaderFile=t7_RequestHeader.txt
 ResponseHeaderFile=t7_ResponseHeader.txt
-RawStepEndTime=1760547349702
-RawStepName=Catalog.action_2
+RawStepEndTime=1760604833235
+RawStepName=Sign In
 RequestBodyFile=t7_RequestBody.txt
-RawStepStartTime=1760547349348
-URL1=https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH
+RawStepStartTime=1760604832841
+URL1=https://petstore.octoperf.com/actions/Account.action?signonForm=

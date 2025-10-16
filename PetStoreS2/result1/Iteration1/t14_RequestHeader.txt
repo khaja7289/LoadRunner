@@ -1,12 +1,9 @@
-POST /actions/Cart.action HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-Referer: https://petstore.octoperf.com/actions/Cart.action
+GET /actions/Catalog.action?viewItem=&itemId=EST-11 HTTP/1.1
+Referer: https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=6441BAEDA09F7938288621343E9EF196
-Content-Length: 221
+Cookie: JSESSIONID=584CF47123F4287172B993834E9A2058
 

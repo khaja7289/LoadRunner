@@ -1,13 +1,13 @@
 [t15]
 SnapshotXmlFile=snapshot_12.xml
 ContentType=text/html
-StepName=Url: Account.action_2
+StepName=Link: Add to Cart
 Total=1
 FileName1=t15.html
 RequestHeaderFile=t15_RequestHeader.txt
 ResponseHeaderFile=t15_ResponseHeader.txt
-RawStepEndTime=1760546886008
-RawStepName=Account.action_2
+RawStepEndTime=1760604214251
+RawStepName=Add to Cart
 RequestBodyFile=t15_RequestBody.txt
-RawStepStartTime=1760546885361
-URL1=https://petstore.octoperf.com/actions/Catalog.action
+RawStepStartTime=1760604213825
+URL1=https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11

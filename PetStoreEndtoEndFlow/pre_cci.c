@@ -2629,7 +2629,7 @@ vuser_init()
 	web_cleanup_auto_headers();
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 	
-	lr_start_transaction("LaunchPetStore");
+	lr_start_transaction("PetStore_LaunchPetStore_T01");
 	
 		web_reg_find("Text=Welcome to JPetStore 6", 
 		"LAST");
@@ -2641,11 +2641,11 @@ vuser_init()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
-	lr_end_transaction("LaunchPetStore",2);
+	lr_end_transaction("PetStore_LaunchPetStore_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("EnterToPetStore");
+	lr_start_transaction("PetStore_EnterToPetStore_T02");
 	web_reg_find("Text=OctoPerf", 
 		"LAST");
 
@@ -2657,11 +2657,11 @@ vuser_init()
 		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		"LAST");
-	lr_end_transaction("EnterToPetStore",2);
+	lr_end_transaction("PetStore_EnterToPetStore_T02",2);
 	
 	lr_think_time(5);
 
-	lr_start_transaction("ClickOnSignIn");
+	lr_start_transaction("PetStore_ClickOnSignIn_T03");
 
 		web_reg_find("Text=Please enter your username and password", 
 		"LAST");
@@ -2671,7 +2671,7 @@ vuser_init()
 		"Snapshot=t11.inf", 
 		"LAST");
 
-	lr_end_transaction("ClickOnSignIn",2);
+	lr_end_transaction("PetStore_ClickOnSignIn_T03",2);
 
 
 	return 0;
@@ -2686,7 +2686,7 @@ AddToCard()
     
 
 	
-	lr_start_transaction("AddAproduct");
+	lr_start_transaction("PetStore_AddAproduct_T01");
 
      
     randIndex = rand() % atoi(lr_eval_string("{ProductName_count}")) + 1;
@@ -2714,11 +2714,11 @@ AddToCard()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("AddAproduct",2);
+	lr_end_transaction("PetStore_AddAproduct_T01",2);
 	
 	lr_think_time(5);
 
-	lr_start_transaction("SelectProductId");
+	lr_start_transaction("PetStore_SelectProductId_T02");
 	
 
 	randIndex = rand() % atoi(lr_eval_string("{productId_count}")) + 1;
@@ -2741,11 +2741,11 @@ AddToCard()
 		"Snapshot=t14.inf", 
 		"LAST");
 
-	lr_end_transaction("SelectProductId",2);
+	lr_end_transaction("PetStore_SelectProductId_T02",2);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("SelectItemId");
+	lr_start_transaction("PetStore_SelectItemId_T03");
 	
 	
 	
@@ -2762,11 +2762,11 @@ AddToCard()
 		"Snapshot=t15.inf", 
 		"LAST");
 
-	lr_end_transaction("SelectItemId",2);
+	lr_end_transaction("PetStore_SelectItemId_T03",2);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("AddToCard");
+	lr_start_transaction("PetStore_AddToCard_T04");
 
 	web_reg_find("Text=Shopping Cart", 
 		"LAST");
@@ -2777,7 +2777,7 @@ AddToCard()
 		"Snapshot=t16.inf", 
 		"LAST");
 
-	lr_end_transaction("AddToCard",2);
+	lr_end_transaction("PetStore_AddToCard_T04",2);
 
 	return 0;
 }
@@ -2787,7 +2787,7 @@ AddToCard()
 Login()
 {	
 	Registration();
-	lr_start_transaction("ClickOnSignIn");
+	lr_start_transaction("PetStore_ClickOnSignIn_T01");
 
 		web_reg_find("Text=Please enter your username and password", 
 		"LAST");
@@ -2796,11 +2796,11 @@ Login()
 		"Text=Sign In", 
 		"Snapshot=t11.inf", 
 		"LAST");
-	lr_end_transaction("ClickOnSignIn",2);
+	lr_end_transaction("PetStore_ClickOnSignIn_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("Login");
+	lr_start_transaction("PetStore_Login_T01");
 		web_reg_find("Text=My Account", 
 		"LAST");
 	web_reg_save_param_regexp(
@@ -2817,7 +2817,7 @@ Login()
 		"Name=signon", "Value=Login", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("Login",2);
+	lr_end_transaction("PetStore_Login_T01",2);
 	return 0;
 }
 # 6 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstoreendtoendflow\\\\combined_PetStoreEndtoEndFlow.c" 2
@@ -2829,18 +2829,18 @@ RemoveTheProduct()
 
 	AddToCard();
 	
-	lr_start_transaction("ClickOnViewCartR");
+	lr_start_transaction("PetStore_ClickOnViewCartR_T01");
 	web_reg_find("Text=Shopping Cart", 
 		"LAST");
 	web_image("cart.gif", 
 		"Src=../images/cart.gif", 
 		"Snapshot=t29.inf", 
 		"LAST");
-	lr_end_transaction("ClickOnViewCartR",2);
+	lr_end_transaction("PetStore_ClickOnViewCartR_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnRemove");
+	lr_start_transaction("PetStore_ClickOnRemove_T02");
 
 	web_reg_find("Text=Your cart is empty.", 
 		"LAST");
@@ -2850,7 +2850,7 @@ RemoveTheProduct()
 		"Snapshot=t30.inf", 
 		"LAST");
 
-	lr_end_transaction("ClickOnRemove",2);
+	lr_end_transaction("PetStore_ClickOnRemove_T02",2);
 
 	return 0;
 }
@@ -2860,7 +2860,7 @@ RemoveTheProduct()
 UpdateCart()
 {
 	int qty;
-	lr_start_transaction("ClickOnViewcart");
+	lr_start_transaction("PetStore_ClickOnViewcart_T01");
 
 	web_reg_find("Text=Sub Total:", 
 		"LAST");
@@ -2875,11 +2875,11 @@ UpdateCart()
 		"LAST");
 
 
-	lr_end_transaction("ClickOnViewcart",2);
+	lr_end_transaction("PetStore_ClickOnViewcart_T01",2);
 
 	lr_think_time(5);
 
-	lr_start_transaction("UpdateCart");
+	lr_start_transaction("PetStore_UpdateCart_T02");
 	
 	 
 	qty = (rand() % 10) + 1;
@@ -2904,7 +2904,7 @@ UpdateCart()
 		"Name=updateCartQuantities", "Value=Update Cart", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("UpdateCart",2);
+	lr_end_transaction("PetStore_UpdateCart_T02",2);
 
 	return 0;
 }
@@ -2914,7 +2914,7 @@ UpdateCart()
 CheckOutThProduct()
 {
 
-	lr_start_transaction("ClickOnViewCart");
+	lr_start_transaction("PetStore_ClickOnViewCart_T01");
 	web_reg_find("Text=Shopping Cart", 
 		"LAST");
 	web_url("Cart.action_4", 
@@ -2925,11 +2925,11 @@ CheckOutThProduct()
 		"Snapshot=t20.inf", 
 		"Mode=HTML", 
 		"LAST");
-	lr_end_transaction("ClickOnViewCart",2);
+	lr_end_transaction("PetStore_ClickOnViewCart_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnProccedToCheckOut");
+	lr_start_transaction("PetStore_ClickOnProccedToCheckOut_T02");
 	web_reg_find("Text=Payment Details", 
 		"LAST");
 
@@ -2937,11 +2937,11 @@ CheckOutThProduct()
 		"Text=Proceed to Checkout", 
 		"Snapshot=t21.inf", 
 		"LAST");
-	lr_end_transaction("ClickOnProccedToCheckOut",2);
+	lr_end_transaction("PetStore_ClickOnProccedToCheckOut_T02",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnContinue");
+	lr_start_transaction("PetStore_ClickOnContinue_T03");
 
 	web_reg_find("Text=Confirm", 
 		"LAST");
@@ -2964,11 +2964,11 @@ CheckOutThProduct()
 		"Name=newOrder", "Value=Continue", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("ClickOnContinue",2);
+	lr_end_transaction("PetStore_ClickOnContinue_T03",2);
 
 	lr_think_time(5);
 	
-	lr_start_transaction("ClickOnConform");
+	lr_start_transaction("PetStore_ClickOnConform_T04");
 	web_reg_find("Text=Thank you, your order has been submitted", 
 		"LAST");
 
@@ -2976,7 +2976,7 @@ CheckOutThProduct()
 		"Text=Confirm", 
 		"Snapshot=t23.inf", 
 		"LAST");
-	lr_end_transaction("ClickOnConform",2);
+	lr_end_transaction("PetStore_ClickOnConform_T04",2);
 
 	return 0;
 }
@@ -2997,7 +2997,7 @@ Registration()
 	
 	
 	
-	lr_start_transaction("ClickOnRegistration");
+	lr_start_transaction("PetStore_ClickOnRegistration_T01");
 
 	web_reg_find("Text=User Information", 
 		"LAST");
@@ -3007,11 +3007,11 @@ Registration()
 		"Snapshot=t59.inf", 
 		"LAST");
 
-	lr_end_transaction("ClickOnRegistration",2);
+	lr_end_transaction("PetStore_ClickOnRegistration_T01",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("SubmitRegistration");
+	lr_start_transaction("PetStore_SubmitRegistration_T02");
 	
 	web_reg_find("Text=Elevate you load-testing", 
 		"LAST");
@@ -3087,11 +3087,11 @@ Registration()
 		"Name=account.bannerOption", "Value=true", "ENDITEM", 
 		"Name=newAccount", "Value=Save Account Information", "ENDITEM", 
 		"LAST");
-	lr_end_transaction("SubmitRegistration",2);
+	lr_end_transaction("PetStore_SubmitRegistration_T02",2);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("SignOut");
+	lr_start_transaction("PetStore_SignOut_T03");
 
 	web_reg_find("Text=Sign In", 
 		"LAST");
@@ -3105,57 +3105,17 @@ Registration()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("SignOut",2);
+	lr_end_transaction("PetStore_SignOut_T03",2);
 	
 	return 0;
 }
 # 10 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstoreendtoendflow\\\\combined_PetStoreEndtoEndFlow.c" 2
 
-# 1 "LoginRegisterUser.c" 1
-LoginRegisterUser()
-{	
-	lr_start_transaction("ClickOnSignIn");
-
-		web_reg_find("Text=Please enter your username and password", 
-		"LAST");
-
-	web_link("Sign In", 
-		"Text=Sign In", 
-		"Snapshot=t11.inf", 
-		"LAST");
-
-	lr_end_transaction("ClickOnSignIn",2);
-	
-	lr_think_time(5);
-	
-	lr_start_transaction("Login");
-		web_reg_find("Text=My Account", 
-		"LAST");
-	web_reg_save_param_regexp(
-		"ParamName=ProductName",
-		"RegExp=categoryId=(.*?)\" shape=\"RECT\"",
-		"Ordinal=All",
-		"LAST");
-
-	web_submit_form("Account.action", 
-		"Snapshot=t12.inf", 
-		"ITEMDATA", 
-		"Name=username", "Value={randomUsername}", "ENDITEM", 
-		"Name=password", "Value={randompass}", "ENDITEM", 
-		"Name=signon", "Value=Login", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("Login",2);
-
-	return 0;
-}
-# 11 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstoreendtoendflow\\\\combined_PetStoreEndtoEndFlow.c" 2
-
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 
-	lr_start_transaction("SignOut");
+	lr_start_transaction("PetStore_SignOut_T01");
 
 	web_reg_find("Text=Sign In", 
 		"LAST");
@@ -3169,7 +3129,7 @@ vuser_end()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("SignOut",2);
+	lr_end_transaction("PetStore_SignOut_T01",2);
 	
 	lr_output_message("Script Exection done sucessfully");
 	web_cache_cleanup();
@@ -3177,5 +3137,5 @@ vuser_end()
 
 	return 0;
 }
-# 12 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstoreendtoendflow\\\\combined_PetStoreEndtoEndFlow.c" 2
+# 11 "c:\\users\\10738962\\documents\\vugen\\scripts\\petstoreendtoendflow\\\\combined_PetStoreEndtoEndFlow.c" 2
 

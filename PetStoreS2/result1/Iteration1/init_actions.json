@@ -6,55 +6,42 @@
                 "stepId": "STEP1",
                 "stepName": "Url: petstore.octoperf.com",
                 "infFile": "t1.inf",
-                "time": 1760546875068
+                "time": 1760604176058
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: Catalog.action",
                 "infFile": "t2.inf",
-                "time": 1760546877539
+                "time": 1760604181425
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Link: Sign In",
                 "infFile": "t3.inf",
-                "time": 1760546878160
-            },
-            {
-                "stepId": "STEP4",
-                "stepName": "Submit Form: Account.action",
-                "infFile": "t5.inf",
-                "time": 1760546879587
+                "time": 1760604186706
             }
         ],
         "transactions": [
             {
-                "transactionName": "LaunchPetStore",
-                "rawStartTime": 1760546872018,
-                "rawEndTime": 1760546875068,
+                "transactionName": "PetStore_LaunchPetStore_T01",
+                "rawStartTime": 1760604172760,
+                "rawEndTime": 1760604176058,
                 "thinkTime": 0.0,
-                "wastedTime": 0.13110685348510743
+                "wastedTime": 0.09325456619262696
             },
             {
-                "transactionName": "EnterToPetStore",
-                "rawStartTime": 1760546875147,
-                "rawEndTime": 1760546877539,
+                "transactionName": "PetStore_EnterToPetStore_T02",
+                "rawStartTime": 1760604178990,
+                "rawEndTime": 1760604181425,
                 "thinkTime": 0.0,
-                "wastedTime": 0.02292466163635254
+                "wastedTime": 0.018419504165649415
             },
             {
-                "transactionName": "ClickOnSignIn",
-                "rawStartTime": 1760546877622,
-                "rawEndTime": 1760546878160,
+                "transactionName": "PetStore_ClickOnSignIn_T03",
+                "rawStartTime": 1760604185913,
+                "rawEndTime": 1760604186706,
                 "thinkTime": 0.0,
-                "wastedTime": 0.017925262451171876
-            },
-            {
-                "transactionName": "Login",
-                "rawStartTime": 1760546878242,
-                "rawEndTime": 1760546879588,
-                "thinkTime": 0.0,
-                "wastedTime": 0.016057729721069337
+                "wastedTime": 0.008893251419067383
             }
         ]
     }

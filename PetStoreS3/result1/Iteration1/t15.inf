@@ -1,13 +1,13 @@
 [t15]
 SnapshotXmlFile=snapshot_12.xml
 ContentType=text/html
-StepName=Link: Confirm
+StepName=Link: Add to Cart
 Total=1
 FileName1=t15.html
 RequestHeaderFile=t15_RequestHeader.txt
 ResponseHeaderFile=t15_ResponseHeader.txt
-RawStepEndTime=1760547247093
-RawStepName=Confirm
+RawStepEndTime=1760604576052
+RawStepName=Add to Cart
 RequestBodyFile=t15_RequestBody.txt
-RawStepStartTime=1760547246709
-URL1=https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true
+RawStepStartTime=1760604575714
+URL1=https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-25

@@ -1,9 +1,9 @@
-GET /actions/Order.action?newOrder=&confirmed=true HTTP/1.1
-Referer: https://petstore.octoperf.com/actions/Order.action
+GET /actions/Cart.action?addItemToCart=&workingItemId=EST-25 HTTP/1.1
+Referer: https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-25
 User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: Keep-Alive
 Host: petstore.octoperf.com
-Cookie: JSESSIONID=1F6244E02219D7EC2D26D3B148B971BB
+Cookie: JSESSIONID=F250D90BE95236AE6178F2983D687BB1
 

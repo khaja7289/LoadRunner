@@ -10,7 +10,6 @@
     <FileEntry Name="UpdateCart.c" Filter="2" />
     <FileEntry Name="CheckOutThProduct.c" Filter="2" />
     <FileEntry Name="Registration.c" Filter="2" />
-    <FileEntry Name="LoginRegisterUser.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>

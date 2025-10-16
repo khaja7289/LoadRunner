@@ -3,19 +3,19 @@
         "actionName": "vuser_end",
         "steps": [
             {
-                "stepId": "STEP13",
+                "stepId": "STEP17",
                 "stepName": "Url: Account.action_2",
-                "infFile": "t16.inf",
-                "time": 1760547247918
+                "infFile": "t20.inf",
+                "time": 1760604590125
             }
         ],
         "transactions": [
             {
-                "transactionName": "SignOut",
-                "rawStartTime": 1760547247271,
-                "rawEndTime": 1760547247919,
+                "transactionName": "PetStore_SignOut_T01",
+                "rawStartTime": 1760604589492,
+                "rawEndTime": 1760604590125,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004689216613769531
+                "wastedTime": 0.006264686584472656
             }
         ]
     }

@@ -1,6 +1,8 @@
+[UpdateCart]
+SnapshotIndex=I1_UpdateCart
 [vuser_init]
 SnapshotIndex=I1_vuser_init
-[Imported_AddToCard]
-SnapshotIndex=I1_Imported_AddToCard
-[Imported_UpdateCart]
-SnapshotIndex=I1_Imported_UpdateCart
+[AddToCard]
+SnapshotIndex=I1_AddToCard
+[Login]
+SnapshotIndex=I1_Login
