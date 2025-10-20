@@ -10,9 +10,37 @@ Registration()
 	char zip[6];
 	int i;
 	
+	lr_start_transaction("PetStore_EnterToPetStore_T01");
+	web_reg_find("Text=OctoPerf", 
+		LAST);
+
+	web_url("Catalog.action", 
+		"URL=https://petstore.octoperf.com/actions/Catalog.action", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://petstore.octoperf.com/", 
+		"Snapshot=t10.inf", 
+		"Mode=HTML", 
+		LAST);
+	lr_end_transaction("PetStore_EnterToPetStore_T01",LR_AUTO);
 	
-	
-	lr_start_transaction("PetStore_ClickOnRegistration_T01");
+	lr_think_time(5);
+
+	lr_start_transaction("PetStore_ClickOnSignIn_T02");
+
+		web_reg_find("Text=Please enter your username and password", 
+		LAST);
+
+	web_link("Sign In", 
+		"Text=Sign In", 
+		"Snapshot=t11.inf", 
+		LAST);
+
+	lr_end_transaction("PetStore_ClickOnSignIn_T02",LR_AUTO);
+
+	lr_think_time(5);
+
+	lr_start_transaction("PetStore_ClickOnRegistration_T03");
 
 	web_reg_find("Text=User Information", 
 		LAST);
@@ -22,11 +50,11 @@ Registration()
 		"Snapshot=t59.inf", 
 		LAST);
 
-	lr_end_transaction("PetStore_ClickOnRegistration_T01",LR_AUTO);
+	lr_end_transaction("PetStore_ClickOnRegistration_T03",LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("PetStore_SubmitRegistration_T02");
+	lr_start_transaction("PetStore_SubmitRegistration_T04");
 	
 	web_reg_find("Text=Elevate you load-testing", 
 		LAST);
@@ -102,11 +130,11 @@ Registration()
 		"Name=account.bannerOption", "Value=true", ENDITEM, 
 		"Name=newAccount", "Value=Save Account Information", ENDITEM, 
 		LAST);
-	lr_end_transaction("PetStore_SubmitRegistration_T02",LR_AUTO);
+	lr_end_transaction("PetStore_SubmitRegistration_T04",LR_AUTO);
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("PetStore_SignOut_T03");
+	lr_start_transaction("PetStore_SignOut_T05");
 
 	web_reg_find("Text=Sign In", 
 		LAST);
@@ -120,7 +148,7 @@ Registration()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("PetStore_SignOut_T03",LR_AUTO);
+	lr_end_transaction("PetStore_SignOut_T05",LR_AUTO);
 	
 	return 0;
 }
