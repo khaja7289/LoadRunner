@@ -66,3 +66,6 @@ After execution:
 ---
 Report Graphs
 https://github.com/khaja7289/LoadRunner/blob/main/Report_Graph/index.html
+
+Analysis Report:
+https://github.com/khaja7289/LoadRunner/blob/main/Analysis/Report.htm
