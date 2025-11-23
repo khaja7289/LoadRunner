@@ -111,23 +111,17 @@ Very few failures (1%) – acceptable for load test
 No signs of bottlenecks like spikes, timeouts, or server failures
 
 ## HTTP Response Code Summary
-HTTP Status Code	Count	Requests/sec	Interpretation
-200 (Success)	60,803	30.16/sec	Majority of requests were successfully processed by the server.
-302 (Redirect)	5,534	2.745/sec	Expected redirects (login flow, auth, dynamic pages). Not an issue unless excessive.
-500 (Server Error)	156	0.077/sec	Indicates internal server failure. Needs investigation.
+- HTTP Status Code	Count	Requests/sec	Interpretation
+- 200 (Success)	60,803	30.16/sec	Majority of requests were successfully processed by the server.
+- 302 (Redirect)	5,534	2.745/sec	Expected redirects (login flow, auth, dynamic pages). Not an issue unless excessive.
+- 500 (Server Error)	156	0.077/sec	Indicates internal server failure. Needs investigation.
 
 1. Server-Side Failures (HTTP 500 – 156 occurrences)
-
 These represent server exceptions or application logic failures.
-
 Even though the error rate is relatively small, any HTTP 500 is a reliability risk.
 
 ## Possible causes:
 
-Backend service timeout
-
-Database connection issues
-
-API gateway throttling
-
-Application unhandled exception
+- Database connection issues
+- API gateway throttling
+- Application unhandled exception
